@@ -1,0 +1,500 @@
+main {
+    max-width: 80%;
+    margin: auto;
+    padding: 100px;
+  }
+  body {
+  margin: auto;
+  }
+  
+  .sfondo {
+  position: absolute;
+  margin-left: 588px;
+  margin-top: 75px;
+  
+  }
+  img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  }
+  
+  .logo h1 {
+  background-color: #92A683;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  font-family: 'bebas neue';
+  padding: 4px;
+  margin-top: 5px;
+  }
+
+  .intro-sedi {
+  font-family: 'League Spartan';
+  line-height: 120%;
+  margin-top: 100px;
+  font-size: 14pt;
+  margin-right: 300px;
+  }
+
+  .testo2-sedi {
+    font-family: 'League Spartan';
+    line-height: 120%;
+    margin-top: 200px;
+    font-size: 14pt;
+    }
+    .testo3-sedi {
+      font-family: 'League Spartan';
+      line-height: 120%;
+      margin-top: 200px;
+      font-size: 14pt;
+      }
+  
+  a:hover {
+  font-weight: bold;
+  font-size: 18pt;
+  }
+  
+  a:hover#Home {
+  color: #ba2575;
+  }
+  
+  a:hover#chi-siamo {
+  color: #b9a833;
+  }
+  
+  a:hover#cosa-facciamo {
+  color: #d9700e;
+  }
+  
+  a:hover#mostre {
+  color: #d9700e;
+  }
+  
+  a:hover#iniziative {
+  color: #d9700e;
+  }
+  
+  a:hover#programmi {
+  color: #d9700e;
+  }
+  
+  .tagline-sedi {
+  color: #92A683;
+  line-height: 200%;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  }
+  .tagline-sedi h1 {
+    font-size: 30pt;
+    font-family: 'bebas neue';
+    margin-top: 40px;
+    margin-bottom: 0px;
+    }
+    .tagline-sedi h2 {
+      font-size: 14pt;
+      font-family: 'league spartan';
+      }
+
+  .verde {
+  color:#92A683;
+  font-weight: bold;
+  }
+  
+  
+  .linea-verdedx-no {
+  height: 2px;
+  max-width: 100%; 
+  background-color:#92A683;
+  margin-bottom: 65px;
+  margin-top: -30px;
+  padding-left: 650px;
+  position: absolute;
+  right: 0px;
+  }
+  .linea-verdedx {
+    max-width: 100%; 
+    background-color:#92A683;
+    margin-top: -30px;
+    padding-left: 1100px;
+    border: 1px dashed #fff;
+    position: absolute;
+    right: 0px;
+    }
+
+  
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  color: black;
+  }
+  
+  header h1 {
+  font-size: 21px;
+  }
+  
+  nav {
+  margin:0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+  }
+  
+  nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  font-family: 'bebas neue';
+  font-size: 14pt;
+  }
+  
+  nav ul li {
+  position: relative;
+  }
+  
+  nav ul a {
+  color: black;
+  text-decoration: none;
+  }
+  
+  .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  }
+  
+  .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #92A683;
+  }
+  
+  .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+  position: absolute;
+  display: none;
+  height: 32px;
+  width: 32px;
+  top: 16x;
+  right: 16px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+  }
+
+  .img1-favara {
+  max-width: 80%;
+  margin-left: 400px;
+  margin-top: 50px;
+  }
+  .img2 {
+    margin: auto;
+    max-width: 550px;
+    margin-left: 0px;
+    margin-top: 50px;
+    }
+    .img3 {
+      margin: auto;
+      max-width: 550px;
+      margin-left: 0px;
+      margin-top: 50px;
+      }
+
+  .imgmostre-sedi{
+    margin: auto;
+  max-width: 550px;
+  margin-left: 0px;
+  margin-top: 50px; 
+  }
+  .boxmostre-sedi {
+  background-color: #92A68330;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 550px;
+  padding-bottom: 110px;
+  padding-left: 40px;
+  padding-top: 0px;
+  width: 520px;
+
+  }
+  
+  .boxmostre-sedi p {
+  font-family: 'league spartan';
+  font-weight: bold;
+  }
+  
+  .column1-favara {
+  margin-top: 80px;
+  color: #92A683;
+  line-height: 130%;
+  width: 40%;
+  }
+  
+  .favara-sedi {
+    font-family: 'bebas neue';
+    color: #92A683;
+    width: 40%;
+  }
+  .column2-favara {
+  color: #92A683;
+  width: 40%;
+  }
+  
+  .mostre-sedi {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  font-family: 'bebas neue';
+  }
+  
+ 
+  .verde {
+  color:#92a683;
+  }
+  
+  
+  .linea-verde {
+  height: 2px;
+  max-width: 100%;
+  background-color:#92a683;
+  margin-bottom: 65px;
+  margin-top: -30px;
+  padding-left: 100px;
+  margin-left: 180px;
+  }
+  
+  
+  /*@media only screen and (max-width: 600px) {*/
+  .checkbox {
+    display: block;
+  }
+  nav ul {
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    opacity: 0;
+    background-color: #fff;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  input[type="checkbox"]:checked ~ nav ul {
+    opacity: 100;
+  }
+  
+  .hamburger-lines {
+    opacity: 100;
+    padding: 5px 10px;
+  }
+  
+  ul li {
+    display: block;
+  }
+  
+   .submenu {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    margin: 0;
+   }
+  /*}*/
+  
+  .top-footer{
+  background-color: #92A68390;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'league spartan';
+  margin-top: 100px;
+  }
+  
+  .column-left {
+  width: 60%;
+  padding: 10px;
+  color: #1E1E1E;
+  box-sizing: border-box;
+  }
+  
+  .column-right {
+    width: 30%;
+    padding: 20px;
+    text-align: right;
+    color:#1E1E1E;
+    box-sizing: border-box;
+  }
+  
+  .column-right h1{
+    margin-bottom: 3px;
+  }
+  
+  .bottom-footer{
+  background-color:#92A683;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'bebas neue';
+  font-size: 16pt;
+  }
+  
+  .column-33{
+  flex: 33,3%;
+  padding: 10px;
+  }
+  
+  .column-right, .column-left {
+  width: 100%;
+  margin-bottom: 10px;
+  }
+  
+  footer ul a {
+  color: #1E1E1E;
+  }
+  
+  a:hover#scopri-come {
+  color: #1E1E1E;
+  font-size: 13pt;
+  }
+  
+  @media only screen and (max-width: 900px) {
+  body {
+    margin: 20px;
+  }
+  .intro-sedi{
+    margin-top: 50px;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .testo2-sedi{
+    margin-top: 100px;
+  }
+  .testo3-sedi{
+    margin-top: 100px;
+  }
+  .linea-verdedx {
+    max-width: 100%; 
+    padding-left: 220px;
+   }
+   .linea-verdedx-no {
+    max-width: 100%; 
+    padding-left: 260px;
+   }
+   .mostre-sedi {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.imgmostre-sedi{
+  max-width: 100%;
+  margin-left: 25px;
+}
+
+.boxmostre-sedi{
+  background-color: #92A68330;
+  height: 150px;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom:20px;
+  padding-left: 10px;
+  padding-top: 0px;
+  width: 300px;
+}
+.boxmostre-sedi p{
+  margin-left: 25px;
+  font-size: 11pt;
+}
+  
+  
+  .img1-favara{
+  max-width: 100%;
+  margin-left: 0px;
+  }
+  .img2-favara{
+    max-width: 100%;
+    margin-left: 0px;
+    }
+
+  
+  .sfondo {
+  width: 70%;
+  position: absolute;
+  right: 26px;
+  top: 18px;
+  }
+  
+  .tagline-sedi {
+  margin-top: 150px;
+  }
+  
+  .sfondo, .tagline-sedi {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  } 
+  .content-footer, .content-footer-bottom{
+  display: flex;
+  flex-direction: row;
+  }
+  
+  header, .content-footer, .content-footer-bottom{
+  width: 1200px; 
+  margin: auto;
+  }
+  
+  .content-footer-bottom{
+  justify-content: space-between;
+  }
+  

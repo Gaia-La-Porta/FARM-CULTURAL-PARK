@@ -1,0 +1,518 @@
+@import url(chisiamo.css);
+@import url(cosafacciamo.css);
+@import url(sedi.css);
+main {
+    max-width: 80%;
+    margin: auto;
+    padding: 100px;
+}
+body {
+  margin: auto;
+}
+
+.sfondo {
+  position: absolute;
+  margin-left: 588px;
+  margin-top: 75px;
+  
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.logo h1 {
+  background-color: #ba2575;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  font-family: 'bebas neue';
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.intro-home {
+  font-family: 'League Spartan';
+  line-height: 120%;
+  margin-top: 40px;
+  font-size: 14pt;
+}
+
+a:hover {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+a:hover#Home {
+  color: #ba2575;
+}
+
+a:hover#chi-siamo {
+  color: #b9a833;
+}
+
+a:hover#cosa-facciamo {
+  color: #d9700e;
+}
+
+a:hover#mostre {
+  color: #d9700e;
+}
+
+a:hover#iniziative {
+  color: #d9700e;
+}
+
+a:hover#programmi {
+  color: #d9700e;
+}
+
+.tagline-home {
+  color: #ba2575;
+  font-size: 20pt;
+  line-height: 200%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  font-family: 'bebas neue';
+  margin-top: 40px;
+}
+
+.fucsia {
+  color:#ba2575;
+  font-weight: bold;
+}
+
+
+.linea-fucsia {
+  height: 2px;
+  max-width: 100%; 
+  background-color:#ba2575;
+  margin-bottom: 65px;
+  margin-top: -30px;
+  padding-left: 100px;
+  margin-left: 120px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  color: black;
+}
+
+header h1 {
+  font-size: 21px;
+}
+
+nav {
+  margin:0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  font-family: 'bebas neue';
+  font-size: 14pt;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+}
+
+.hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #ba2575;
+}
+
+.hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+.hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+}
+
+input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+}
+
+.checkbox {
+  position: absolute;
+  display: none;
+  height: 32px;
+  width: 32px;
+  top: 16x;
+  right: 16px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.imgmostre {
+  margin: auto;
+  max-width: 400px;
+}
+
+.boxmostre {
+  background-color: #d9700e30;
+  height: 220px;
+  margin-top: 40px;
+  margin-left: 0px;
+  padding-bottom: 122px;
+  padding-left: 40px;
+  padding-top: 0px;
+  width: 350px;
+}
+
+.boxmostre p {
+  font-family: 'league spartan';
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.column-attuale {
+  margin-top: 90px;
+  color: #d9700e;
+  line-height: 130%;
+  width: 80%;
+}
+
+.column-inprogramma {
+  margin-top: 80px;
+  color: #d9700e;
+  line-height: 130%;
+  width: 80%;
+}
+
+.mostre-home {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 100px;
+font-family: 'bebas neue';
+}
+
+.partecipa h2 {
+  margin-top: -45px;
+  font-family: 'bebas neue';
+  color: #d9700e;
+  margin-bottom: 90px;
+}
+
+.partecipa p {
+  font-family: 'league spartan';
+  line-height: 120%;
+  font-size: 14pt;
+}
+
+.partecipa p, .lumachina {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: auto;
+}
+.lumachina {
+  width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.verde {
+  color:#92a683;
+  font-weight: bold;
+}
+
+.verde-scuro{
+  color: #035234;
+  font-weight: bold;
+}
+
+.citroviamo {
+  font-family: 'league spartan';
+  line-height: 120%;
+  font-size: 14pt;
+  margin-top: 120px;
+}
+
+.linea-verde {
+  height: 2px;
+  max-width: 100%;
+  background-color:#92a683;
+  margin-bottom: 65px;
+  margin-top: -30px;
+  padding-left: 100px;
+  margin-left: 180px;
+}
+
+.aprifarm h2 {
+  font-family: 'bebas neue';
+  text-decoration: underline;
+  color: #035234;
+  width: 30%; 
+}
+
+.img-italia {
+  margin-right: 60px;
+}
+
+.aprifarm {
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+  margin-bottom: 80px;
+  justify-content: space-between;
+
+}
+
+.aprifarm p {
+  max-width: 60%;
+  font-family: 'league spartan';
+  font-size: 14pt;
+}
+
+/*@media only screen and (max-width: 600px) {*/
+  .checkbox {
+    display: block;
+  }
+  nav ul {
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    opacity: 0;
+    background-color: #fff;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+  }
+
+  input[type="checkbox"]:checked ~ nav ul {
+    opacity: 100;
+  }
+
+  .hamburger-lines {
+    opacity: 100;
+    padding: 5px 10px;
+  }
+
+  ul li {
+    display: block;
+  }
+
+   .submenu {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    margin: 0;
+   }
+/*}*/
+
+.top-footer{
+  background-color: #C083A490;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'league spartan';
+}
+
+.column-left {
+  width: 60%;
+  padding: 10px;
+  color: #1E1E1E;
+  box-sizing: border-box;
+  }
+
+  .column-right {
+    width: 30%;
+    padding: 20px;
+    text-align: right;
+    color:#1E1E1E;
+    box-sizing: border-box;
+  }
+
+  .column-right h1{
+    margin-bottom: 3px;
+  }
+
+.bottom-footer{
+  background-color:#BA2575;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'bebas neue';
+  font-size: 16pt;
+}
+
+.column-33{
+  flex: 33,3%;
+  padding: 10px;
+}
+
+.column-right, .column-left {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+footer ul a {
+  color: #1E1E1E;
+}
+ 
+a:hover#scopri-come {
+  color: #1E1E1E;
+  font-size: 13pt;
+}
+
+@media only screen and (max-width: 900px) {
+  body {
+    margin: 20px;
+  }
+
+  .column-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .mostre-home {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+.imgmostre{
+  max-width: 100%;
+  margin-left: 25px;
+
+
+}
+.boxmostre{
+  background-color: #d9700e30;
+  height: 150px;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom:20px;
+  padding-left: 10px;
+  padding-top: 0px;
+  width: 300px;
+}
+.boxmostre p{
+  margin-left: 25px;
+  font-size: 11pt;
+}
+
+.sfondo {
+  width: 70%;
+  position: absolute;
+  right: 26px;
+  top: 18px;
+}
+
+.tagline-home {
+  margin-top: 200px;
+}
+
+.sfondo, .tagline-home {
+  display: flex;
+  flex-direction: column;
+}
+.partecipa p, .lumachina{
+  display: flex;
+  flex-direction: column;
+}
+.partecipa p{
+  margin-top: 90px;
+  }
+  .partecipa h2{
+    font-size: 14pt;
+  }
+  .citroviamo{
+    margin-top: 100px;
+  }
+  .aprifarm h2 {
+    font-size: 16pt;
+    width: 50%;
+    margin-bottom: 0px;
+  }
+  
+.img-italia {
+  margin: auto;
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.aprifarm {
+  display: flex;
+  flex-direction: column;
+  width: 120%;
+} 
+.aprifarm p {
+  max-width: 85%;
+}
+} 
+.content-footer, .content-footer-bottom{
+  display: flex;
+  flex-direction: row;
+}
+
+header, .content-footer, .content-footer-bottom{
+  width: 1200px; 
+  margin: auto;
+}
+
+.content-footer-bottom{
+  justify-content: space-between;
+}

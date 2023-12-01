@@ -1,0 +1,436 @@
+main {
+    max-width: 80%;
+    margin: auto;
+    padding: 100px;
+  }
+  body {
+  margin: auto;
+  }
+  
+  .sfondo {
+  position: absolute;
+  margin-left: 588px;
+  margin-top: 75px;
+  
+  }
+  
+  .logo h1 {
+  background-color: #D9700E;
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  font-family: 'bebas neue';
+  padding: 4px;
+  margin-top: 5px;
+  }
+  .box1{
+    width: 300px;
+    margin-top: -10px;
+    left: 0px;
+    margin-left: -50px;
+  }
+  .box2{
+    width: 300px;
+    margin-top: 100px;
+    left: 0px;
+    margin-left: -50px;
+  }
+  .box3{
+    width: 300px;
+    margin-top: 100px;
+    left: 0px;
+    margin-left: -50px;
+  }
+  .intro-cosafacciamo p{
+  font-family: 'League Spartan';
+  line-height: 120%;
+  margin-left: 300px;
+  font-size: 14pt;
+  margin-top: 40px;
+  }
+  .testo2-cosafacciamo p{
+    font-family: 'League Spartan';
+    line-height: 120%;
+    margin-left: 300px;
+    font-size: 14pt;
+    margin-top: 40px;
+    }
+  .testo3-cosafacciamo p{
+    font-family: 'League Spartan';
+    line-height: 120%;
+    margin-left: 300px;
+    font-size: 14pt;
+    margin-top: 40px;
+    }
+.mostre-cosafacciamo{
+  font-size: 10pt;
+    font-family: 'bebas neue';
+    color: #D9700E;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-left: 138px;
+    position: absolute;
+}
+.mostre-cosafacciamo a{
+  color: #D9700E;
+}
+.mostre-cosafacciamo a:hover{
+  color: #D9700E;
+  font-size: 11pt;
+}
+.programmi-cosafacciamo{
+  font-size: 11pt;
+    font-family: 'bebas neue';
+    color: #D9700E;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 127px;
+    position: absolute;
+}
+.programmi-cosafacciamo a{
+  color: #D9700E;
+}
+.programmi-cosafacciamo a:hover{
+  color: #D9700E;
+  font-size: 12pt;
+}
+.iniziative-cosafacciamo{
+  font-size: 10pt;
+    font-family: 'bebas neue';
+    color: #D9700E;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 138px;
+    position: absolute;
+}
+.iniziative-cosafacciamo a{
+  color: #D9700E;
+}
+.iniziative-cosafacciamo a:hover{
+  color: #D9700E;
+  font-size: 11pt;
+}
+
+ 
+  
+  a:hover {
+  font-weight: bold;
+  font-size: 18pt;
+  }
+  
+  a:hover#Home {
+  color: #ba2575;
+  }
+  
+  a:hover#chi-siamo {
+  color: #b9a833;
+  }
+  
+  a:hover#cosa-facciamo {
+  color: #d9700e;
+  }
+  
+  a:hover#mostre {
+  color: #d9700e;
+  }
+  
+  a:hover#iniziative {
+  color: #d9700e;
+  }
+  
+  a:hover#programmi {
+  color: #d9700e;
+  }
+  
+  .tagline-cosafacciamo {
+  color: #D9700E;
+  line-height: 200%;
+  padding-top: 300px;
+  padding-bottom: 50px;
+  }
+  .tagline-cosafacciamo h1 {
+    font-size: 30pt;
+    font-family: 'bebas neue';
+    margin-top: 40px;
+    margin-bottom: 0px;
+    }
+    .tagline-cosafacciamo h2 {
+      font-size: 14pt;
+      font-family: 'league spartan';
+      }
+  
+  .linea-arancionedx {
+  max-width: 100%; 
+  background-color:#D9700E;
+  margin-top: 0px;
+  padding-left: 1000px;
+  border: 1px dashed #fff;
+  position: absolute;
+  right: 0px;
+  }
+
+  
+  .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  color: black;
+  }
+  
+  header h1 {
+  font-size: 21px;
+  }
+  
+  nav {
+  margin:0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  
+  }
+  
+  nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+  font-family: 'bebas neue';
+  font-size: 14pt;
+  }
+  
+  nav ul li {
+  position: relative;
+  }
+  
+  nav ul a {
+  color: black;
+  text-decoration: none;
+  }
+  
+  .hamburger-lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  }
+  
+  .hamburger-lines .line {
+  display: block;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+  background: #D9700E;
+  }
+  
+  .hamburger-lines .line1 {
+  transform-origin: 0% 0%;
+  transition: transform 0.4s ease-in-out;
+  }
+  .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+  }
+  
+  .hamburger-lines .line3 {
+  transform-origin: 0% 100%;
+  transition: transform 0.4s ease-in-out;
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  transform: rotate(45deg);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  transform: scaleY(0);
+  }
+  
+  input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  transform: rotate(-45deg);
+  }
+  
+  .checkbox {
+  position: absolute;
+  display: none;
+  height: 32px;
+  width: 32px;
+  top: 16x;
+  right: 16px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+  }
+  
+  /*@media only screen and (max-width: 600px) {*/
+  .checkbox {
+    display: block;
+  }
+  nav ul {
+    gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    opacity: 0;
+    background-color: #fff;
+    width: 200px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    z-index: 999;
+  }
+  
+  input[type="checkbox"]:checked ~ nav ul {
+    opacity: 100;
+  }
+  
+  .hamburger-lines {
+    opacity: 100;
+    padding: 5px 10px;
+  }
+  
+  ul li {
+    display: block;
+  }
+  
+   .submenu {
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 10px 0;
+    margin: 0;
+   }
+  /*}*/
+  
+  .top-footer{
+  background-color: #D9700E90;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'league spartan';
+  margin-top: 100px;
+  }
+  
+  .column-left {
+  width: 60%;
+  padding: 10px;
+  color: #1E1E1E;
+  box-sizing: border-box;
+  }
+  
+  .column-right {
+    width: 30%;
+    padding: 20px;
+    text-align: right;
+    color:#1E1E1E;
+    box-sizing: border-box;
+  }
+  
+  .column-right h1{
+    margin-bottom: 3px;
+  }
+  
+  .bottom-footer{
+  background-color:#D9700E;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-family: 'bebas neue';
+  font-size: 16pt;
+  }
+  
+  .column-33{
+  flex: 33,3%;
+  padding: 10px;
+  }
+  
+  .column-right, .column-left {
+  width: 100%;
+  margin-bottom: 10px;
+  }
+  
+  footer ul a {
+  color: #1E1E1E;
+  }
+  
+  a:hover#scopri-come {
+  color: #1E1E1E;
+  font-size: 13pt;
+  }
+  
+  @media only screen and (max-width: 900px) {
+  body {
+    margin: 20px;
+  }
+  .intro-cosafacciamo p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .testo2-cosafacciamo p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .testo3-cosafacciamo p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  
+  
+  .linea-arancionedx {
+    max-width: 100%; 
+    padding-left: 450px;
+   }
+  
+   .linea-arancionesx {
+    max-width: 100%; 
+    padding-right: 455px;
+   }
+  
+  
+  .sfondo {
+  width: 70%;
+  position: absolute;
+  right: 26px;
+  top: 18px;
+  }
+  
+  .tagline-cosafacciamo {
+  margin-top: 100px;
+  }
+  
+  .sfondo, .tagline-cosafacciamo {
+  display: flex;
+  flex-direction: column;
+  }
+  
+  } 
+  .content-footer, .content-footer-bottom{
+  display: flex;
+  flex-direction: row;
+  }
+  
+  header, .content-footer, .content-footer-bottom{
+  width: 1200px; 
+  margin: auto;
+  }
+  
+  .content-footer-bottom{
+  justify-content: space-between;
+  }
+  
