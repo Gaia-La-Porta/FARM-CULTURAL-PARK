@@ -498,6 +498,12 @@ a:hover.dona1{
     margin: 20px;
   }
 
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
   .column-right {
     width: 50%;
     display: flex;

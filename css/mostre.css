@@ -569,6 +569,13 @@ main {
   body {
     margin: 20px;
   }
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  
   .intro-mostre p, .intro-inprogramma p, .intro-passate p{
     margin-top: 50px;
     margin-left: 0px;

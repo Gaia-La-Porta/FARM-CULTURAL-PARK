@@ -382,6 +382,13 @@ a:hover.dona1{
 body {
   margin: 20px;
 }
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
 .intro-chisiamo{
   margin-top: 50px;
 }
