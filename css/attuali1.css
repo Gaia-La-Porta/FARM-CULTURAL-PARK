@@ -370,8 +370,16 @@ main {
   }
 
   @media only screen and (max-width: 900px) {
+
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -382,17 +390,17 @@ main {
   
   .intro-attuali1 {
     margin-top: 50px;
-    width: 100%;
+    width: 130%;
   }
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 350px;
+    padding-left: 100px;
    }
   
    .linea-arancionesx {
     max-width: 100%; 
-    padding-right: 140px;
+    padding-right: 200px;
    }
   
   .img-attuali1 {
@@ -420,9 +428,10 @@ main {
     font-family: 'league spartan';
     text-decoration: none;
     color: #d9700e;
-    padding-left: 35px;
+    padding-left: 65px;
     margin-bottom: 0px;
     margin-top: 50px;
+    font-size: 11pt; 
   }
 
   .link-linea1 {
@@ -431,7 +440,7 @@ main {
   }
 
   a:hover.link-attuali1 {
-    font-size: 14pt;
+    font-size: 13pt;
   }
 
   } 

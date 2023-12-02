@@ -441,8 +441,14 @@ left: 35px;
   }
   
   @media only screen and (max-width: 900px) {
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {

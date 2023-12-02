@@ -566,8 +566,15 @@ main {
   }
   
   @media only screen and (max-width: 900px) {
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -643,15 +650,18 @@ main {
   }
 
 .mostre-attuali {
-    margin-top: 140px;
+    margin-top: 110px;
+    padding-left: 80px;
 }
 
 .mostre-inprogramma-mostre {
-    margin-top: 80px;
+    margin-top: 45px;
+    padding-left: 80px;
 }
 
 .mostre-passate {
-    margin-top: 70px;
+    margin-top: 40px;
+    padding-left: 80px;
 }
 
   } 

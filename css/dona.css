@@ -379,8 +379,15 @@ main {
   }
   
   @media only screen and (max-width: 900px) {
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -392,23 +399,39 @@ main {
   .intro-dona p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    width: 130%;
   }
   .testo2-dona p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    width: 130%;
   }
   .testo3-dona p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    width: 130%;
   }
   
-  
+  .come-donare {
+    margin-top: 50px;
+    padding-left: 80px;
+    font-size: 7pt;
+  }
+
+  .contributo {
+    margin-top: -30px;
+    padding-left: 80px;
+    font-size: 8pt;
+  }
+
+  .domande {
+    margin-top: -30px;
+    padding-left: 85px;
+    font-size: 9pt;
+  }
   .linea-fucsiadx {
     max-width: 100%; 
-    padding-left: 450px;
+    padding-left: 400px;
    }
   
   .sfondo {

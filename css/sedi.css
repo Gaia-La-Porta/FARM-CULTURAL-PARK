@@ -464,8 +464,15 @@ main {
   }
   
   @media only screen and (max-width: 900px) {
+ 
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -476,13 +483,13 @@ main {
   
   .intro-sedi{
     margin-top: 50px;
-    width: 100%;
+    width: 150%;
     margin-right: 0px;
   }
 
   .intro2-sedi{
     margin-top: 50px;
-    width: 100%;
+    width: 150%;
     margin-right: 0px;
   }
 
@@ -498,7 +505,7 @@ main {
    }
    .linea-verdedx-no {
     max-width: 100%; 
-    padding-left: 260px;
+    padding-left: 230px;
    }
    .mostre-sedi {
     display: flex;

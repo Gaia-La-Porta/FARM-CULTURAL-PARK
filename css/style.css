@@ -34,8 +34,8 @@ body {
   position: absolute;
   margin-left: 588px;
   margin-top: 75px;
-  
 }
+
 img {
   max-width: 100%;
   display: block;
@@ -494,16 +494,26 @@ a:hover.dona1{
 }
 
 @media only screen and (max-width: 900px) {
-  body {
-    margin: 20px;
-  }
+  main {
+    display: block;
+    max-width: 40%;
+    margin: auto;
+}
+
+body {
+  margin: auto;
+}
 
   img {
-    max-width: 100%;
+    max-width: 80%;
     display: block;
     height: auto;
   }
   
+  .intro-home{
+    width: 150%;
+  }
+
   .column-right {
     width: 50%;
     display: flex;
@@ -523,11 +533,11 @@ a:hover.dona1{
 }
 
 .linea-fucsia {
-  padding-left: 320px;
+  padding-left: 280px;
 }
 
 .linea-verde {
-  padding-left: 270px;
+  padding-left: 220px;
 }
 
 .boxmostre{
@@ -564,8 +574,13 @@ a:hover.dona1{
   display: flex;
   flex-direction: column;
 }
+
+.lumachina {
+  margin-left: 120px;
+}
 .partecipa p{
   margin-top: 90px;
+  width: 120%;
   }
   .partecipa-p h2{
     font-size: 14pt;
@@ -573,6 +588,7 @@ a:hover.dona1{
 
   .citroviamo{
     margin-top: 100px;
+    width: 120%;
   }
   .aprifarm h2 {
     font-size: 14pt;
@@ -594,7 +610,7 @@ a:hover.dona1{
   width: 120%;
 } 
 .aprifarm p {
- max-width: 100%;
+ width: 100%;
 }
 
 a:hover.mostre-home p {

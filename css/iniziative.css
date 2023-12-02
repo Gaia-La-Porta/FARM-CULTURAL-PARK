@@ -442,10 +442,17 @@ left: 35px;
   }
   
   @media only screen and (max-width: 900px) {
-  body {
-    margin: 20px;
-  }
 
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
+  body {
+    margin: auto;
+  }
+  
   img {
     max-width: 100%;
     display: block;

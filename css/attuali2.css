@@ -357,9 +357,17 @@ main {
   }
 
   @media only screen and (max-width: 900px) {
-  body {
-    margin: 20px;
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
   }
+  
+  body {
+    margin: auto;
+  }
+  
 
   img {
     max-width: 100%;
@@ -369,17 +377,17 @@ main {
   
   .intro-attuali2 {
     margin-top: 50px;
-    width: 100%;
+    width: 130%;
   }
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 350px;
+    padding-left: 300px;
    }
   
    .linea-arancionesx {
     max-width: 100%; 
-    padding-right: 460px;
+    padding-right: 470px;
    }
   
   .img-attuali2 {

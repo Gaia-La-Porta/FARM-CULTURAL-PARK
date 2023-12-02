@@ -395,10 +395,17 @@ main {
   }
   
   @media only screen and (max-width: 900px) {
-  body {
-    margin: 20px;
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
   }
   
+  body {
+    margin: auto;
+  }
+
   img {
     max-width: 100%;
     display: block;
@@ -408,23 +415,36 @@ main {
   .intro-cosafacciamo p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    width: 130%;
   }
   .testo2-cosafacciamo p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    width: 130%;
   }
   .testo3-cosafacciamo p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    width: 130%;
   }
   
-  
+ .mostre-cosafacciamo {
+  margin-top: 50px;
+  padding-left: 80px;
+ } 
+
+ .programmi-cosafacciamo {
+  margin-top: -30px;
+  padding-left: 80px;
+ }
+
+ .iniziative-cosafacciamo {
+  margin-top: -25px;
+  padding-left: 80px;
+ }
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 450px;
+    padding-left: 400px;
    }
   
    .linea-arancionesx {

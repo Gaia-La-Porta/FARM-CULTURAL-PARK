@@ -370,8 +370,15 @@ main {
   }
 
   @media only screen and (max-width: 900px) {
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -382,17 +389,17 @@ main {
   
   .intro-passate2{
     margin-top: 50px;
-    width: 100%;
+    width: 130%;
   }
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 100px;
+    padding-left: 120px;
    }
   
    .linea-arancionesx {
     max-width: 100%; 
-    padding-right: 140px;
+    padding-right: 210px;
    }
   
   .img-passate2{
@@ -420,7 +427,7 @@ main {
     font-family: 'league spartan';
     text-decoration: none;
     color: #d9700e;
-    padding-left: 50px;
+    padding-left: 70px;
     margin-bottom: 0px;
     margin-top: 50px;
     font-size: 11pt;

@@ -379,8 +379,15 @@ a:hover.dona1{
 }
 
 @media only screen and (max-width: 900px) {
+
+  main {
+    display: block;
+    max-width: 40%;
+    margin: auto;
+}
+
 body {
-  margin: 20px;
+  margin: auto;
 }
 
 img {
@@ -391,21 +398,24 @@ img {
 
 .intro-chisiamo{
   margin-top: 50px;
+  width: 150%;
 }
 .testo2-chisiamo{
   margin-top: 100px;
+  width: 130%;
 }
 .testo3-chisiamo{
   margin-top: 100px;
+  width: 130%;
 }
 .linea-verdinadx {
   max-width: 100%; 
-  padding-left: 220px;
+  padding-left: 170px;
  }
 
  .linea-verdinasx {
   max-width: 100%; 
-  padding-right: 455px;
+  padding-right: 470px;
  }
 
 

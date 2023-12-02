@@ -370,9 +370,17 @@ main {
   }
 
   @media only screen and (max-width: 900px) {
-  body {
-    margin: 20px;
+ 
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
   }
+  
+  body {
+    margin: auto;
+  }
+
   img {
     max-width: 100%;
     display: block;
@@ -381,17 +389,17 @@ main {
   
   .intro-passate5 {
     margin-top: 50px;
-    width: 100%;
+    width: 130%;
   }
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 320px;
+    padding-left: 260px;
    }
   
    .linea-arancionesx {
     max-width: 100%; 
-    padding-right: 140px;
+    padding-right: 190px;
    }
   
   .img-passate5 {
@@ -422,7 +430,7 @@ main {
     padding-left: 50px;
     margin-bottom: 0px;
     margin-top: 50px;
-    font-size: 11pt;
+    font-size: 12pt;
   }
 
   .link-linea5 {
@@ -431,7 +439,7 @@ main {
   }
 
   a:hover.link-passate5 {
-    font-size: 14pt;
+    font-size: 13pt;
   }
 
   } 

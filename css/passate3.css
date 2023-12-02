@@ -370,8 +370,15 @@ main {
   }
 
   @media only screen and (max-width: 900px) {
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -382,12 +389,12 @@ main {
   
   .intro-passate3 {
     margin-top: 50px;
-    width: 100%;
+    width: 130%;
   }
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 250px;
+    padding-left: 130px;
    }
   
    .linea-arancionesx {
@@ -420,7 +427,7 @@ main {
     font-family: 'league spartan';
     text-decoration: none;
     color: #d9700e;
-    padding-left: 180px;
+    padding-left: 140px;
     margin-bottom: 0px;
     margin-top: 50px;
     font-size: 11pt;

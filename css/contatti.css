@@ -395,10 +395,28 @@ main {
   }
   
   @media only screen and (max-width: 900px) {
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
+  .nostre-sedi {
+    margin-top: 55px;
+    padding-left: 80px;
+    font-size: 7pt;
+  }
+  
+  .mail-telefono {
+    margin-top: -30px;
+    padding-left: 90px;
+    font-size: 9pt;
+  }
   img {
     max-width: 100%;
     display: block;
@@ -430,7 +448,7 @@ main {
 
   .linea-verdescurodx {
     max-width: 100%;
-    padding-left: 450px;
+    padding-left: 400px;
   }
 
    .mezzalinea-verdescurodx {

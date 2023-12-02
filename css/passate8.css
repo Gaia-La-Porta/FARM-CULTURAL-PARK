@@ -365,8 +365,15 @@ main {
   }
 
   @media only screen and (max-width: 900px) {
+
+    main {
+      display: block;
+      max-width: 40%;
+      margin: auto;
+  }
+  
   body {
-    margin: 20px;
+    margin: auto;
   }
 
   img {
@@ -377,17 +384,17 @@ main {
   
   .intro-passate8 {
     margin-top: 50px;
-    width: 100%;
+    width: 130%;
   }
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 300px;
+    padding-left: 240px;
    }
   
    .linea-arancionesx {
     max-width: 100%; 
-    padding-right: 460px;
+    padding-right: 470px;
    }
   
   .img-passate8 {
