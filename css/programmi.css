@@ -6,7 +6,7 @@ main {
   body {
   margin: auto;
   }
-  
+
   .sedi{
     color: #fff;
     text-decoration: none;
@@ -36,14 +36,9 @@ main {
   margin-top: 75px;
   
   }
-  img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  }
   
   .logo h1 {
-  background-color: #92A683;
+  background-color: #D9700E;
   color: white;
   border-radius: 5px;
   position: absolute;
@@ -53,36 +48,141 @@ main {
   padding: 4px;
   margin-top: 5px;
   }
-
-  .intro-sedi {
-  font-family: 'League Spartan';
-  line-height: 120%;
-  margin-top: 100px;
-  font-size: 14pt;
-  margin-right: 300px;
+  .img1-programmi {
+    width: 300px;
+    margin-top: -10px;
+    left: 0px;
+    margin-left: 0px;
+    background-color: #d9700e;
+    padding: 1px;
+  }
+  .img2-programmi {
+    width: 300px;
+    margin-top: -10px;
+    left: 0px;
+    margin-left: 0px;
+    background-color: #d9700e;
+    padding: 1px;
+  }
+  .img3-programmi {
+    width: 300px;
+    margin-top: -10px;
+    left: 0px;
+    margin-left: 0px;
+    background-color: #d9700e;
+    padding: 1px;
   }
 
-  .intro2-sedi {
+  .img4-programmi {
+    width: 300px;
+    margin-top: -10px;
+    left: 0px;
+    margin-left: 0px;
+    background-color: #d9700e;
+    padding: 1px;
+  }
+
+.intro-programmi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.testo2-programmi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.testo3-programmi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.testo4-programmi {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+  .intro-programmi p{
+  font-family: 'League Spartan';
+  line-height: 120%;
+  margin-left: 150px;
+  font-size: 14pt;
+  margin-top: 60px;
+  color: #d9700e;
+  }
+  .testo2-programmi p{
     font-family: 'League Spartan';
     line-height: 120%;
-    margin-top: 100px;
+    margin-left: 150px;
     font-size: 14pt;
-    margin-right: 300px;
+    margin-top: 60px;
+    color: #d9700e;
+    }
+  .testo3-programmi p{
+    font-family: 'League Spartan';
+    line-height: 120%;
+    margin-left: 150px;
+    font-size: 14pt;
+    margin-top: 60px;
+    color: #d9700e;
     }
 
-  .testo2-sedi {
-    font-family: 'League Spartan';
-    line-height: 120%;
-    margin-top: 200px;
-    font-size: 14pt;
-    }
-    .testo3-sedi {
-      font-family: 'League Spartan';
-      line-height: 120%;
-      margin-top: 200px;
-      font-size: 14pt;
-      }
-  
+.testo4-programmi p{
+font-family: 'League Spartan';
+line-height: 120%;
+margin-left: 150px;
+font-size: 14pt;
+margin-top: 60px;
+color: #d9700e;
+        }
+
+.quadratini-piccoli{
+width: 60px;
+position: absolute;
+left: 35px;
+ }
+
+ .quadratini-piccoli2{
+ width: 60px;
+position: absolute;
+left: 35px;
+ }
+
+.plurals {
+  font-size: 10pt;
+    font-family: 'bebas neue';
+    color: #D9700E;
+    position: absolute;
+}
+
+.sou {
+  font-size: 11pt;
+    font-family: 'bebas neue';
+    color: #D9700E;
+    position: absolute;
+    margin-top: 76px;
+}
+
+.american-cities {
+  font-size: 11pt;
+    font-family: 'bebas neue';
+    color: #D9700E;
+    position: absolute;
+    margin-top: 76px;
+}
+
+.prime-minister {
+    font-size: 11pt;
+      font-family: 'bebas neue';
+      color: #D9700E;
+      position: absolute;
+      margin-top: 76px;
+  }
+
   a:hover {
   font-weight: bold;
   font-size: 18pt;
@@ -112,49 +212,34 @@ main {
   color: #d9700e;
   }
   
-  .tagline-sedi {
-  color: #92A683;
+  .tagline-programmi {
+  color: #D9700E;
   line-height: 200%;
   padding-top: 300px;
   padding-bottom: 50px;
   }
-  .tagline-sedi h1 {
+  .tagline-programmi h1 {
     font-size: 30pt;
     font-family: 'bebas neue';
     margin-top: 40px;
     margin-bottom: 0px;
     }
-    .tagline-sedi h2 {
+    .tagline-programmi h2 {
       font-size: 14pt;
       font-family: 'league spartan';
+      width: 45%;
+      margin-bottom: 60px;
       }
-
-  .verde {
-  color:#92A683;
-  font-weight: bold;
-  }
   
-  
-  .linea-verdedx-no {
-  height: 2px;
+  .linea-arancionedx {
   max-width: 100%; 
-  background-color:#92A683;
-  margin-bottom: 65px;
-  margin-top: -30px;
-  padding-left: 750px;
+  background-color:#D9700E;
+  margin-top: 0px;
+  padding-left: 900px;
+  height: 1px;
   position: absolute;
   right: 0px;
   }
-  .linea-verdedx {
-    max-width: 100%; 
-    background-color:#92A683;
-    margin-top: -30px;
-    padding-left: 1050px;
-    border: 1px dashed #fff;
-    position: absolute;
-    right: 0px;
-    }
-
   
   .header {
   display: flex;
@@ -215,7 +300,7 @@ main {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #92A683;
+  background: #D9700E;
   }
   
   .hamburger-lines .line1 {
@@ -254,114 +339,6 @@ main {
   opacity: 0;
   cursor: pointer;
   }
-
-  .img1-favara {
-  max-width: 70%;
-  margin-left: 550px;
-  margin-top: 50px;
-  }
-  .img1-mazzarino {
-    max-width: 70%;
-    margin-left: 550px;
-    margin-top: 50px;
-    }
-
-
-  .imgmostre-sedi{
-    margin: auto;
-  max-width: 550px;
-  margin-left: 0px;
-  margin-top: 50px; 
-  }
-  .boxmostre-sedi {
-  background-color: #92A68330;
-  height: 300px;
-  margin-top: 40px;
-  margin-left: 550px;
-  padding-bottom: 110px;
-  padding-left: 40px;
-  padding-top: 0px;
-  width: 520px;
-
-  }
-  
-  .boxmostre-sedi p {
-  font-family: 'league spartan';
-  font-weight: bold;
-  }
-  
-  .column1-favara {
-  margin-top: 80px;
-  color: #92A683;
-  line-height: 130%;
-  width: 40%;
-  }
-  .column1-mazzarino {
-    margin-top: 80px;
-    color: #92A683;
-    line-height: 130%;
-    width: 40%;
-    }
-  
-  .favara-sedi {
-    font-family: 'bebas neue';
-    color: #92A683;
-    width: 40%;
-  }
-  .mazzarino-sedi {
-    font-family: 'bebas neue';
-    color: #92A683;
-    width: 40%;
-  }
-  .column2-favara {
-  color: #92A683;
-  width: 40%;
-  }
-  .column2-mazzarino {
-    color: #92A683;
-    width: 40%;
-    }
-
-    .column3-mazzarino {
-      color: #92A683;
-      width: 40%;
-      }
-  
-  .mostre-sedi {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 100px;
-  font-family: 'bebas neue';
-  }
-  
-  .quadratini-piccoli{
-    width: 60px;
-    position: absolute;
-    left: 35px;
-  }
-
-  .quadratini-piccoli2{
-    width: 60px;
-    position: absolute;
-    left: 35px;
-  }
- 
-  .verde {
-  color:#92a683;
-  }
-  
-  
-  .linea-verde {
-  height: 2px;
-  max-width: 100%;
-  background-color:#92a683;
-  margin-bottom: 65px;
-  margin-top: -30px;
-  padding-left: 100px;
-  margin-left: 180px;
-  }
-  
   
   /*@media only screen and (max-width: 600px) {*/
   .checkbox {
@@ -405,7 +382,7 @@ main {
   /*}*/
   
   .top-footer{
-  background-color: #92A68390;
+  background-color: #D9700E90;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -434,7 +411,7 @@ main {
   }
   
   .bottom-footer{
-  background-color:#92A683;
+  background-color:#D9700E;
   padding: 10px;
   color: white;
   display: flex;
@@ -467,75 +444,32 @@ main {
   body {
     margin: 20px;
   }
-  .intro-sedi{
+  .intro-programmi p{
     margin-top: 50px;
-    width: 100%;
-    margin-right: 0px;
-  }
-
-  .intro2-sedi{
-    margin-top: 50px;
-    width: 100%;
-    margin-right: 0px;
-  }
-
-  .testo2-sedi{
-    margin-top: 100px;
-  }
-  .testo3-sedi{
-    margin-top: 100px;
-  }
-  .linea-verdedx {
-    max-width: 100%; 
-    padding-left: 220px;
-   }
-   .linea-verdedx-no {
-    max-width: 100%; 
-    padding-left: 260px;
-   }
-   .mostre-sedi {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-.imgmostre-sedi{
-  max-width: 100%;
-  margin-left: 25px;
-}
-
-.boxmostre-sedi{
-  background-color: #92A68330;
-  height: 150px;
-  margin-top: 40px;
-  margin-left: 0px;
-  margin-bottom:20px;
-  padding-left: 10px;
-  padding-top: 0px;
-  width: 300px;
-}
-.boxmostre-sedi p{
-  margin-left: 25px;
-  font-size: 11pt;
-}
-  
-  
-  .img1-favara{
-  max-width: 100%;
-  margin-left: 0px;
-  }
-  .img2-favara{
-    max-width: 100%;
     margin-left: 0px;
-    }
-    .img1-mazzarino{
-      max-width: 100%;
-      margin-left: 0px;
-      }
-      .img2-mazzarino{
-        max-width: 100%;
-        margin-left: 0px;
-        }
+    max-width: 100%;
+  }
+  .testo2-programmi p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  .testo3-programmi p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+
+  .testo4-programmi p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+  
+  .linea-arancionedx {
+    max-width: 100%; 
+    padding-left: 450px;
+   }
   
   .sfondo {
   width: 70%;
@@ -544,14 +478,45 @@ main {
   top: 18px;
   }
   
-  .tagline-sedi {
-  margin-top: 150px;
+  .tagline-programmi {
+  margin-top: 30px;
   }
   
-  .sfondo, .tagline-sedi {
+  .sfondo, .tagline-programmi {
   display: flex;
   flex-direction: column;
   }
+
+  .tagline-programmi h2 {
+    font-size: 14pt;
+    font-family: 'league spartan';
+    width: 100%;
+    margin-bottom: 60px;
+    }
+
+  .intro-programmi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.testo2-programmi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.testo3-programmi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.testo4-programmi {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
   
   } 
   .content-footer, .content-footer-bottom{

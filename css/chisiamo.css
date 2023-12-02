@@ -119,7 +119,7 @@ font-weight: bold;
 max-width: 100%; 
 background-color:#B9A833;
 margin-top: -30px;
-padding-left: 900px;
+padding-left: 1050px;
 border: 1px dashed #fff;
 position: absolute;
 right: 0px;
@@ -253,121 +253,7 @@ margin-top: 50px;
     margin-top: 50px;
     }
 
-.boxmostre {
-background-color: #d9700e30;
-height: 220px;
-margin-top: 40px;
-margin-left: 0px;
-padding-bottom: 122px;
-padding-left: 40px;
-padding-top: 0px;
-width: 350px;
-}
 
-.boxmostre p {
-font-family: 'league spartan';
-font-weight: bold;
-text-decoration: underline;
-}
-
-.column-attuale {
-margin-top: 80px;
-color: #d9700e;
-line-height: 130%;
-width: 40%;
-}
-
-.column-inprogramma {
-margin-top: 80px;
-color: #d9700e;
-line-height: 130%;
-width: 40%;
-}
-
-.mostre {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin-bottom: 100px;
-font-family: 'bebas neue';
-}
-
-.partecipa h2 {
-margin-top: -45px;
-font-family: 'bebas neue';
-color: #d9700e;
-margin-bottom: 90px;
-}
-
-.partecipa p {
-font-family: 'league spartan';
-line-height: 120%;
-font-size: 14pt;
-}
-
-.partecipa p, .lumachina {
-display: flex;
-flex-direction: row;
-margin-bottom: auto;
-}
-.lumachina {
-width: 500px;
-padding: 20px;
-box-sizing: border-box;
-}
-
-.verde {
-color:#92a683;
-font-weight: bold;
-}
-
-.verde-scuro{
-color: #035234;
-font-weight: bold;
-}
-
-.citroviamo {
-font-family: 'league spartan';
-line-height: 120%;
-font-size: 14pt;
-margin-top: 120px;
-}
-
-.linea-verde {
-height: 2px;
-max-width: 100%;
-background-color:#92a683;
-margin-bottom: 65px;
-margin-top: -30px;
-padding-left: 100px;
-margin-left: 180px;
-}
-
-.aprifarm h2 {
-font-family: 'bebas neue';
-text-decoration: underline;
-color: #035234;
-width: 30%; 
-}
-
-.img-italia {
-margin-right: 60px;
-}
-
-.aprifarm {
-display: flex;
-flex-direction: row;
-margin-top: 150px;
-margin-bottom: 80px;
-justify-content: space-between;
-
-}
-
-.aprifarm p {
-max-width: 60%;
-font-family: 'league spartan';
-font-size: 14pt;
-}
 
 /*@media only screen and (max-width: 600px) {*/
 .checkbox {
@@ -467,6 +353,29 @@ color: #1E1E1E;
 a:hover#scopri-come {
 color: #1E1E1E;
 font-size: 13pt;
+}
+
+.sedi{
+  color: #fff;
+  text-decoration: none;
+}
+.dona{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contatti{
+  color: #fff;
+  text-decoration: none;
+}
+
+.dona1{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover.dona1{
+  font-size: 13pt;
 }
 
 @media only screen and (max-width: 900px) {

@@ -1,6 +1,26 @@
 @import url(chisiamo.css);
 @import url(cosafacciamo.css);
 @import url(sedi.css);
+@import url(dona.css);
+@import url(contatti.css);
+@import url(iniziative.css);
+@import url(programmi.css);
+@import url(mostre.css);
+@import url(passate1.css);
+@import url(passate2.css);
+@import url(passate3.css);
+@import url(passate4.css);
+@import url(passate5.css);
+@import url(passate6.css);
+@import url(passate7.css);
+@import url(passate8.css);
+@import url(passate9.css);
+@import url(passate10.css);
+@import url(attuali1.css);
+@import url(attuali2.css);
+@import url(inprogramma1.css);
+@import url(inprogramma2.css);
+
 main {
     max-width: 80%;
     margin: auto;
@@ -92,8 +112,10 @@ a:hover#programmi {
   background-color:#ba2575;
   margin-bottom: 65px;
   margin-top: -30px;
-  padding-left: 100px;
+  padding-left: 1150px;
   margin-left: 120px;
+  position: absolute;
+  right: 0px;
 }
 
 .header {
@@ -224,6 +246,10 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   width: 80%;
 }
 
+a:hover.column-attuale h2 {
+  font-size: 19pt;
+}
+
 .column-inprogramma {
   margin-top: 80px;
   color: #d9700e;
@@ -239,11 +265,26 @@ margin-bottom: 100px;
 font-family: 'bebas neue';
 }
 
+.mostre-home p {
+  color: #d9700e;
+}
+
+a:hover.mostre-home p {
+  font-size: 13pt;
+}
+
 .partecipa h2 {
   margin-top: -45px;
   font-family: 'bebas neue';
-  color: #d9700e;
   margin-bottom: 90px;
+}
+
+.partecipa-p {
+  color: #d9700e;
+}
+
+a:hover.partecipa-p h2 {
+  font-size: 19pt;
 }
 
 .partecipa p {
@@ -252,13 +293,20 @@ font-family: 'bebas neue';
   font-size: 14pt;
 }
 
+.img-italia {
+margin: auto;
+width: 50%;
+margin-top: 0px;
+margin-bottom: 40px;
+}
+
 .partecipa p, .lumachina {
   display: flex;
   flex-direction: row;
-  margin-bottom: auto;
+  margin-bottom: 0px;
 }
 .lumachina {
-  width: 500px;
+  width: 700px;
   padding: 20px;
   box-sizing: border-box;
 }
@@ -286,34 +334,41 @@ font-family: 'bebas neue';
   background-color:#92a683;
   margin-bottom: 65px;
   margin-top: -30px;
-  padding-left: 100px;
+  padding-left: 1100px;
   margin-left: 180px;
+  position: absolute;
+  right: 0px;
 }
 
 .aprifarm h2 {
+  font-size: 14pt;
+  width: 50%;
+  margin-bottom: 0px;
   font-family: 'bebas neue';
   text-decoration: underline;
   color: #035234;
-  width: 30%; 
+  width: 100%;
 }
 
 .img-italia {
-  margin-right: 60px;
+  width: 30%;
+}
+a:hover.aprifarm h2 {
+font-size: 18pt;
 }
 
 .aprifarm {
   display: flex;
   flex-direction: row;
   margin-top: 150px;
-  margin-bottom: 80px;
+  margin-bottom: -20px;
   justify-content: space-between;
-
 }
 
 .aprifarm p {
-  max-width: 60%;
   font-family: 'league spartan';
   font-size: 14pt;
+  width: 50%;
 }
 
 /*@media only screen and (max-width: 600px) {*/
@@ -415,6 +470,29 @@ a:hover#scopri-come {
   font-size: 13pt;
 }
 
+.sedi{
+  color: #fff;
+  text-decoration: none;
+}
+.dona{
+  color: #fff;
+  text-decoration: none;
+}
+
+.contatti{
+  color: #fff;
+  text-decoration: none;
+}
+
+.dona1{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover.dona1{
+  font-size: 13pt;
+}
+
 @media only screen and (max-width: 900px) {
   body {
     margin: 20px;
@@ -436,9 +514,16 @@ a:hover#scopri-come {
 .imgmostre{
   max-width: 100%;
   margin-left: 25px;
-
-
 }
+
+.linea-fucsia {
+  padding-left: 320px;
+}
+
+.linea-verde {
+  padding-left: 270px;
+}
+
 .boxmostre{
   background-color: #d9700e30;
   height: 150px;
@@ -476,14 +561,15 @@ a:hover#scopri-come {
 .partecipa p{
   margin-top: 90px;
   }
-  .partecipa h2{
+  .partecipa-p h2{
     font-size: 14pt;
   }
+
   .citroviamo{
     margin-top: 100px;
   }
   .aprifarm h2 {
-    font-size: 16pt;
+    font-size: 14pt;
     width: 50%;
     margin-bottom: 0px;
   }
@@ -495,13 +581,20 @@ a:hover#scopri-come {
   margin-bottom: 40px;
 }
 .aprifarm {
+  margin-top: 50px;
+  margin-bottom: -50px;
   display: flex;
   flex-direction: column;
   width: 120%;
 } 
 .aprifarm p {
-  max-width: 85%;
+ max-width: 100%;
 }
+
+a:hover.mostre-home p {
+  font-size: 12pt;
+}
+
 } 
 .content-footer, .content-footer-bottom{
   display: flex;

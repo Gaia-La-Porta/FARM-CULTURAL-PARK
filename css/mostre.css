@@ -14,6 +14,29 @@ main {
   
   }
   
+  .sedi{
+    color: #fff;
+    text-decoration: none;
+  }
+  .dona{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contatti{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dona1{
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover.dona1{
+    font-size: 13pt;
+  }
+
   .logo h1 {
   background-color: #D9700E;
   color: white;
@@ -25,46 +48,45 @@ main {
   padding: 4px;
   margin-top: 5px;
   }
+
   .box1{
     width: 300px;
     margin-top: -10px;
     left: 0px;
     margin-left: -50px;
   }
-  .box2{
-    width: 300px;
-    margin-top: 100px;
-    left: 0px;
-    margin-left: -50px;
-  }
-  .box3{
-    width: 300px;
-    margin-top: 100px;
-    left: 0px;
-    margin-left: -50px;
-  }
-  .intro-cosafacciamo p{
+
+  .intro-attuali p{
   font-family: 'League Spartan';
   line-height: 120%;
   margin-left: 300px;
   font-size: 14pt;
   margin-top: 40px;
   }
-  .testo2-cosafacciamo p{
+
+  .intro-inprogramma p{
     font-family: 'League Spartan';
     line-height: 120%;
     margin-left: 300px;
     font-size: 14pt;
     margin-top: 40px;
     }
-  .testo3-cosafacciamo p{
-    font-family: 'League Spartan';
-    line-height: 120%;
-    margin-left: 300px;
-    font-size: 14pt;
-    margin-top: 40px;
-    }
-.mostre-cosafacciamo{
+
+    .intro-passate p{
+        font-family: 'League Spartan';
+        line-height: 120%;
+        margin-left: 300px;
+        font-size: 14pt;
+        margin-top: 40px;
+        }
+
+.lista-mostre {
+    margin-top: 100px;
+    line-height: 250%;
+    margin-left: 80px;
+}
+
+.mostre-attuali{
   font-size: 10pt;
     font-family: 'bebas neue';
     color: #D9700E;
@@ -73,47 +95,219 @@ main {
     padding-left: 138px;
     position: absolute;
 }
-.mostre-cosafacciamo a{
-  color: #D9700E;
-}
-.mostre-cosafacciamo a:hover{
-  color: #D9700E;
-  font-size: 11pt;
-}
-.programmi-cosafacciamo{
-  font-size: 11pt;
+
+.mostre-inprogramma-mostre {
+  font-size: 8pt;
     font-family: 'bebas neue';
     color: #D9700E;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 20px;
+    padding-top: 80px;
     padding-left: 127px;
     position: absolute;
 }
-.programmi-cosafacciamo a{
-  color: #D9700E;
-}
-.programmi-cosafacciamo a:hover{
-  color: #D9700E;
-  font-size: 12pt;
-}
-.iniziative-cosafacciamo{
+
+.mostre-passate {
   font-size: 10pt;
     font-family: 'bebas neue';
     color: #D9700E;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 10px;
+    padding-top: 80px;
     padding-left: 138px;
     position: absolute;
 }
-.iniziative-cosafacciamo a{
-  color: #D9700E;
-}
-.iniziative-cosafacciamo a:hover{
-  color: #D9700E;
-  font-size: 11pt;
-}
 
- 
+#radical-she {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#radical-she a{
+    color: #D9700E;
+  }
+  #radical-she a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #countless-cities2 {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#countless-cities2 a{
+    color: #D9700E;
+  }
+  #countless-cities2 a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #the-art {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#the-art a{
+    color: #D9700E;
+  }
+  #the-art a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #city-rebels {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#city-rebels a{
+    color: #D9700E;
+  }
+  #city-rebels a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #countless-cities1 {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#countless-cities1 a{
+    color: #D9700E;
+  }
+  #countless-cities1 a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #detroit {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#detroit a{
+    color: #D9700E;
+  }
+  #detroit a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #what {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#what a{
+    color: #D9700E;
+  }
+  #what a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #commonality {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#commonality a{
+    color: #D9700E;
+  }
+  #commonality a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #sponsor {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#sponsor a{
+    color: #D9700E;
+  }
+  #sponsor a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+  #melodrama {
+    font-size: 15pt;
+      font-family: 'league spartan';
+      color: #D9700E;
+      margin-top: 100px;
+  }
+
+#melodrama a{
+    color: #D9700E;
+  }
+  #melodrama a:hover {
+    color: #D9700E;
+    font-size: 16pt;
+  }
+
+.mostre-mostre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    font-family: 'bebas neue';
+    }
+
+    .imgmostre-mostre {
+        margin: auto;
+        max-width: 400px;
+      }
+      
+      .boxmostre-mostre {
+        background-color: #d9700e30;
+        height: 220px;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding-bottom: 122px;
+        padding-left: 40px;
+        padding-top: 0px;
+        width: 350px;
+      }
+      
+      .boxmostre-mostre p {
+        font-family: 'league spartan';
+        font-weight: bold;
+      }
+      
+      .column-attuale-mostre {
+        margin-top: 90px;
+        color: #d9700e;
+        line-height: 130%;
+        width: 80%;
+      }
+      
+      .column-inprogramma-mostre {
+        margin-top: 80px;
+        color: #d9700e;
+        line-height: 130%;
+        width: 80%;
+      }
   
   a:hover {
   font-weight: bold;
@@ -144,42 +338,19 @@ main {
   color: #d9700e;
   }
   
-  .sedi{
-    color: #fff;
-    text-decoration: none;
-  }
-  .dona{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .contatti{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .dona1{
-    color: black;
-    text-decoration: none;
-  }
-  
-  a:hover.dona1{
-    font-size: 13pt;
-  }
-
-  .tagline-cosafacciamo {
+  .tagline-mostre {
   color: #D9700E;
   line-height: 200%;
   padding-top: 300px;
   padding-bottom: 50px;
   }
-  .tagline-cosafacciamo h1 {
+  .tagline-mostre h1 {
     font-size: 30pt;
     font-family: 'bebas neue';
     margin-top: 40px;
     margin-bottom: 0px;
     }
-    .tagline-cosafacciamo h2 {
+    .tagline-mostre h2 {
       font-size: 14pt;
       font-family: 'league spartan';
       }
@@ -187,7 +358,7 @@ main {
   .linea-arancionedx {
   max-width: 100%; 
   background-color:#D9700E;
-  margin-top: 0px;
+  margin-top: -10px;
   padding-left: 1000px;
   border: 1px dashed #fff;
   position: absolute;
@@ -398,34 +569,49 @@ main {
   body {
     margin: 20px;
   }
-  .intro-cosafacciamo p{
+  .intro-mostre p, .intro-inprogramma p, .intro-passate p{
     margin-top: 50px;
     margin-left: 0px;
     max-width: 100%;
   }
-  .testo2-cosafacciamo p{
-    margin-top: 50px;
-    margin-left: 0px;
-    max-width: 100%;
-  }
-  .testo3-cosafacciamo p{
-    margin-top: 50px;
-    margin-left: 0px;
-    max-width: 100%;
-  }
-  
-  
+
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 450px;
-   }
-  
-   .linea-arancionesx {
-    max-width: 100%; 
-    padding-right: 455px;
+    padding-left: 180px;
    }
   
   
+   .mostre-mostre {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.lista-mostre {
+    margin-left: 0px;
+}
+
+.imgmostre-mostre {
+  max-width: 100%;
+  margin-left: 25px;
+
+
+}
+.boxmostre-mostre {
+  background-color: #d9700e30;
+  height: 150px;
+  margin-top: 40px;
+  margin-left: 0px;
+  margin-bottom:20px;
+  padding-left: 10px;
+  padding-top: 0px;
+  width: 300px;
+}
+.boxmostre-mostre p{
+  margin-left: 25px;
+  font-size: 11pt;
+}
+
   .sfondo {
   width: 70%;
   position: absolute;
@@ -433,15 +619,34 @@ main {
   top: 18px;
   }
   
-  .tagline-cosafacciamo {
+  .tagline-mostre {
   margin-top: 100px;
   }
   
-  .sfondo, .tagline-cosafacciamo {
+  .sfondo, .tagline-mostre {
   display: flex;
   flex-direction: column;
   }
-  
+
+  .box1{
+    width: 300px;
+    margin-top: 50px;
+    left: 0px;
+    margin-left: -50px;
+  }
+
+.mostre-attuali {
+    margin-top: 140px;
+}
+
+.mostre-inprogramma-mostre {
+    margin-top: 80px;
+}
+
+.mostre-passate {
+    margin-top: 70px;
+}
+
   } 
   .content-footer, .content-footer-bottom{
   display: flex;
