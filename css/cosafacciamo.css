@@ -1,17 +1,22 @@
 main {
     max-width: 80%;
     margin: auto;
-    padding: 100px;
   }
+
   body {
   margin: auto;
   }
   
   .sfondo {
-  position: absolute;
-  margin-left: 588px;
-  margin-top: 75px;
-  
+    position: absolute;
+    margin-left: 690px;
+    margin-top: 0px;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
   }
   
   .logo h1 {
@@ -19,12 +24,13 @@ main {
   color: white;
   border-radius: 5px;
   position: absolute;
-  left: 20px;
-  top: 18px;
+  left: 45px;
+  top: 55px;
   font-family: 'bebas neue';
   padding: 4px;
   margin-top: 5px;
   }
+
   .box1{
     width: 300px;
     margin-top: -10px;
@@ -43,82 +49,72 @@ main {
     left: 0px;
     margin-left: -50px;
   }
+
   .intro-cosafacciamo p{
+  margin-left: 300px;
   font-family: 'League Spartan';
   line-height: 120%;
-  margin-left: 300px;
-  font-size: 14pt;
-  margin-top: 40px;
+  margin-top: 35px;
+  font-size: 16pt;
+  max-width: 50%;
   }
+
   .testo2-cosafacciamo p{
     font-family: 'League Spartan';
     line-height: 120%;
     margin-left: 300px;
-    font-size: 14pt;
-    margin-top: 40px;
+    margin-top: 50px;
+    font-size: 16pt;
+    max-width: 50%;
     }
   .testo3-cosafacciamo p{
     font-family: 'League Spartan';
     line-height: 120%;
     margin-left: 300px;
-    font-size: 14pt;
-    margin-top: 40px;
+    margin-top: 30px;
+    font-size: 16pt;
+    max-width: 50%;
     }
 .mostre-cosafacciamo{
-  font-size: 10pt;
+    font-size: 10pt;
     font-family: 'bebas neue';
     color: #D9700E;
-    margin-top: 80px;
+    margin-top: 50px;
     padding-top: 10px;
-    padding-left: 138px;
+    padding-left: 133px;
     position: absolute;
 }
 .mostre-cosafacciamo a{
   color: #D9700E;
 }
-.mostre-cosafacciamo a:hover{
-  color: #D9700E;
-  font-size: 11pt;
-}
+
 .programmi-cosafacciamo{
-  font-size: 11pt;
+    font-size: 11pt;
     font-family: 'bebas neue';
     color: #D9700E;
-    margin-top: 100px;
-    padding-top: 100px;
+    margin-top: 90px;
+    padding-top: 10px;
     padding-left: 127px;
     position: absolute;
 }
+
 .programmi-cosafacciamo a{
   color: #D9700E;
 }
-.programmi-cosafacciamo a:hover{
-  color: #D9700E;
-  font-size: 12pt;
-}
+
 .iniziative-cosafacciamo{
-  font-size: 10pt;
+    font-size: 11pt;
     font-family: 'bebas neue';
     color: #D9700E;
-    margin-top: 100px;
-    padding-top: 100px;
-    padding-left: 138px;
+    margin-top: 95px;
+    padding-top: 10px;
+    padding-left: 130px;
     position: absolute;
 }
+
 .iniziative-cosafacciamo a{
   color: #D9700E;
 }
-.iniziative-cosafacciamo a:hover{
-  color: #D9700E;
-  font-size: 11pt;
-}
-
- 
-  
-  a:hover {
-  font-weight: bold;
-  font-size: 18pt;
-  }
   
   a:hover#Home {
   color: #ba2575;
@@ -162,10 +158,6 @@ main {
     color: black;
     text-decoration: none;
   }
-  
-  a:hover.dona1{
-    font-size: 13pt;
-  }
 
   .tagline-cosafacciamo {
   color: #D9700E;
@@ -173,14 +165,20 @@ main {
   padding-top: 300px;
   padding-bottom: 50px;
   }
+
   .tagline-cosafacciamo h1 {
     font-size: 30pt;
     font-family: 'bebas neue';
     margin-top: 40px;
     margin-bottom: 0px;
+    font-size: 50pt;
+    font-family: 'bebas neue';
+    margin-top: 40px;
+    margin-bottom: 0px;
     }
+
     .tagline-cosafacciamo h2 {
-      font-size: 14pt;
+      font-size: 20pt;
       font-family: 'league spartan';
       }
   
@@ -194,7 +192,6 @@ main {
   right: 0px;
   }
 
-  
   .header {
   display: flex;
   align-items: center;
@@ -236,17 +233,17 @@ main {
   }
   
   .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  opacity: 0;
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+     top: 55px;
+     right: 45px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
   }
   
   .hamburger-lines .line {
@@ -283,15 +280,15 @@ main {
   }
   
   .checkbox {
-  position: absolute;
-  display: none;
-  height: 32px;
-  width: 32px;
-  top: 16x;
-  right: 16px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 55px;
+    right: 45px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
   }
   
   /*@media only screen and (max-width: 600px) {*/
@@ -342,7 +339,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'league spartan';
-  margin-top: 100px;
+  margin-top: 150px;
   }
   
   .column-left {
@@ -389,62 +386,118 @@ main {
   color: #1E1E1E;
   }
   
-  a:hover#scopri-come {
-  color: #1E1E1E;
-  font-size: 13pt;
-  }
-  
   @media only screen and (max-width: 900px) {
-
     main {
       display: block;
-      max-width: 40%;
-      margin: auto;
+      max-width: 80%;
   }
   
   body {
     margin: auto;
   }
+  
+    img {
+      max-width: 90%;
+      display: block;
+      height: auto;
+    }
+  
+    .hamburger-lines {
+      display: block;
+      height: 20px;
+      width: 30px;
+      position: absolute;
+       top: 25px;
+       right: 25px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .checkbox {
+      height: 20px;
+      width: 30px;
+       top: 25px;
+       right: 25px;
+    }
+    
+    .sfondo {
+      width: 80%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      }
 
-  img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
+      .logo h1 {
+        left: 25px;
+        top: 20px;
+        z-index: 999;
+      }
+
+.tagline-cosafacciamo {
+    margin-top: 0px;
+    font-size: 24pt;
+    }
+        
+.tagline-cosafacciamo h2 {
+    font-size: 18pt;
+    line-height: 120%;
+    }
 
   .intro-cosafacciamo p{
     margin-top: 50px;
     margin-left: 0px;
-    width: 130%;
+    max-width: 45ch;
   }
   .testo2-cosafacciamo p{
     margin-top: 50px;
     margin-left: 0px;
-    width: 130%;
+    max-width: 45ch;
   }
   .testo3-cosafacciamo p{
     margin-top: 50px;
     margin-left: 0px;
-    width: 130%;
+    max-width: 45ch;
   }
   
  .mostre-cosafacciamo {
   margin-top: 50px;
-  padding-left: 80px;
+  padding-left: 105px;
  } 
 
  .programmi-cosafacciamo {
-  margin-top: -30px;
-  padding-left: 80px;
+  margin-top: 65px;
+  padding-left: 97px;
  }
 
  .iniziative-cosafacciamo {
-  margin-top: -25px;
-  padding-left: 80px;
+  margin-top: 65px;
+  padding-left: 105px;
  }
+
+ .box1{
+  width: 300px;
+  margin-top: -10px;
+  left: 0px;
+  margin-left: -40px;
+}
+.box2{
+  width: 300px;
+  margin-top: 100px;
+  left: 0px;
+  margin-left: -40px;
+}
+.box3{
+  width: 300px;
+  margin-top: 100px;
+  left: 0px;
+  margin-left: -40px;
+}
+
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 400px;
+    padding-left: 300px;
    }
   
    .linea-arancionesx {
@@ -452,21 +505,17 @@ main {
     padding-right: 455px;
    }
   
-  
-  .sfondo {
-  width: 70%;
-  position: absolute;
-  right: 26px;
-  top: 18px;
-  }
-  
   .tagline-cosafacciamo {
-  margin-top: 100px;
+  margin-top: 10px;
   }
   
   .sfondo, .tagline-cosafacciamo {
   display: flex;
   flex-direction: column;
+  }
+
+  .top-footer {
+  margin-top: 120px;
   }
   
   } 

@@ -1,92 +1,66 @@
 main {
-    max-width: 80%;
-    margin: auto;
-    padding: 100px;
-  }
-  body {
+  max-width: 80%;
   margin: auto;
-  }
-  
-  .sedi{
-    color: #fff;
-    text-decoration: none;
-  }
-  .dona{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .contatti{
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  .dona1{
-    color: black;
-    text-decoration: none;
-  }
-  
-  a:hover.dona1{
-    font-size: 13pt;
-  }
-  
-  .sfondo {
-  position: absolute;
-  margin-left: 588px;
-  margin-top: 75px;
-  
-  }
-  img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  }
+}
+
+body {
+margin: auto;
+}
+
+.sfondo {
+position: absolute;
+margin-left: 690px;
+margin-top: 0px;
+
+}
+img {
+max-width: 100%;
+display: block;
+height: auto;
+}
   
   .logo h1 {
   background-color: #92A683;
   color: white;
   border-radius: 5px;
   position: absolute;
-  left: 20px;
-  top: 18px;
+  left: 45px;
+  top: 55px;
   font-family: 'bebas neue';
   padding: 4px;
   margin-top: 5px;
   }
 
   .intro-sedi {
-  font-family: 'League Spartan';
-  line-height: 120%;
-  margin-top: 100px;
-  font-size: 14pt;
-  margin-right: 300px;
+    font-family: 'League Spartan';
+    line-height: 120%;
+    margin-top: 35px;
+    font-size: 16pt;
+    max-width: 50%;
   }
 
   .intro2-sedi {
     font-family: 'League Spartan';
     line-height: 120%;
-    margin-top: 100px;
-    font-size: 14pt;
-    margin-right: 300px;
+    margin-top: 35px;
+    font-size: 16pt;
+    max-width: 50%;
     }
 
   .testo2-sedi {
     font-family: 'League Spartan';
     line-height: 120%;
-    margin-top: 200px;
-    font-size: 14pt;
+    margin-top: 150px;
+    font-size: 16pt;
+    max-width: 50%;
     }
     .testo3-sedi {
       font-family: 'League Spartan';
       line-height: 120%;
-      margin-top: 200px;
-      font-size: 14pt;
+      margin-top: 150px;
+      font-size: 16pt;
+      max-width: 50%;
       }
-  
-  a:hover {
-  font-weight: bold;
-  font-size: 18pt;
-  }
   
   a:hover#Home {
   color: #ba2575;
@@ -118,15 +92,17 @@ main {
   padding-top: 300px;
   padding-bottom: 50px;
   }
+
   .tagline-sedi h1 {
-    font-size: 30pt;
-    font-family: 'bebas neue';
-    margin-top: 40px;
-    margin-bottom: 0px;
+  font-size: 50pt;
+  font-family: 'bebas neue';
+  margin-top: 40px;
+  margin-bottom: 0px;
     }
+
     .tagline-sedi h2 {
-      font-size: 14pt;
-      font-family: 'league spartan';
+   font-size: 20pt;
+    font-family: 'league spartan';
       }
 
   .verde {
@@ -140,8 +116,8 @@ main {
   max-width: 100%; 
   background-color:#92A683;
   margin-bottom: 65px;
-  margin-top: -30px;
-  padding-left: 750px;
+  margin-top: -35px;
+  padding-left: 1150px;
   position: absolute;
   right: 0px;
   }
@@ -197,17 +173,17 @@ main {
   }
   
   .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  opacity: 0;
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+     top: 55px;
+     right: 45px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
   }
   
   .hamburger-lines .line {
@@ -244,25 +220,25 @@ main {
   }
   
   .checkbox {
-  position: absolute;
-  display: none;
-  height: 32px;
-  width: 32px;
-  top: 16x;
-  right: 16px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 55px;
+    right: 45px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
   }
 
   .img1-favara {
-  max-width: 70%;
-  margin-left: 550px;
+  max-width: 100%;
+  margin-left: 560px;
   margin-top: 50px;
   }
   .img1-mazzarino {
-    max-width: 70%;
-    margin-left: 550px;
+    max-width: 100%;
+    margin-left: 560px;
     margin-top: 50px;
     }
 
@@ -273,6 +249,7 @@ main {
   margin-left: 0px;
   margin-top: 50px; 
   }
+
   .boxmostre-sedi {
   background-color: #92A68330;
   height: 300px;
@@ -282,7 +259,6 @@ main {
   padding-left: 40px;
   padding-top: 0px;
   width: 520px;
-
   }
   
   .boxmostre-sedi p {
@@ -349,20 +325,9 @@ main {
  
   .verde {
   color:#92a683;
+  font-weight: bold;
   }
-  
-  
-  .linea-verde {
-  height: 2px;
-  max-width: 100%;
-  background-color:#92a683;
-  margin-bottom: 65px;
-  margin-top: -30px;
-  padding-left: 100px;
-  margin-left: 180px;
-  }
-  
-  
+ 
   /*@media only screen and (max-width: 600px) {*/
   .checkbox {
     display: block;
@@ -411,7 +376,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'league spartan';
-  margin-top: 100px;
+  margin-top: 150px;
   }
   
   .column-left {
@@ -457,47 +422,107 @@ main {
   footer ul a {
   color: #1E1E1E;
   }
+
+  .sedi{
+    color: #fff;
+    text-decoration: none;
+  }
+  .dona{
+    color: #fff;
+    text-decoration: none;
+  }
   
-  a:hover#scopri-come {
-  color: #1E1E1E;
-  font-size: 13pt;
+  .contatti{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dona1{
+    color: black;
+    text-decoration: none;
   }
   
   @media only screen and (max-width: 900px) {
- 
     main {
       display: block;
-      max-width: 40%;
-      margin: auto;
+      max-width: 80%;
   }
   
   body {
     margin: auto;
   }
-
-  img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
   
+    img {
+      max-width: 80%;
+      display: block;
+      height: auto;
+    }
+  
+    .hamburger-lines {
+      display: block;
+      height: 20px;
+      width: 30px;
+      position: absolute;
+       top: 25px;
+       right: 25px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .checkbox {
+      height: 20px;
+      width: 30px;
+       top: 25px;
+       right: 25px;
+    }
+    
+    .sfondo {
+      width: 80%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      }
+  
+      .logo h1 {
+        left: 25px;
+        top: 20px;
+        z-index: 999;
+      }
+
+      .quadratini-piccoli{
+        max-width: 6%;
+        position: absolute;
+        left: 5px;
+      }
+    
+      .quadratini-piccoli2{
+        max-width: 6%;
+        position: absolute;
+        left: 5px;
+      }
   .intro-sedi{
-    margin-top: 50px;
-    width: 150%;
-    margin-right: 0px;
+  max-width: 45ch;
+  font-size: 14pt;
+  margin-top: -10px;
   }
 
   .intro2-sedi{
-    margin-top: 50px;
-    width: 150%;
-    margin-right: 0px;
+    max-width: 45ch;
+    font-size: 14pt;
+    margin-top: -10px;
   }
 
   .testo2-sedi{
-    margin-top: 100px;
+    margin-top: 120px;
+    max-width: 45ch;
+    font-size: 14pt;
   }
   .testo3-sedi{
-    margin-top: 100px;
+    margin-top: 120px;
+    max-width: 45ch;
+    font-size: 14pt;
   }
   .linea-verdedx {
     max-width: 100%; 
@@ -505,7 +530,8 @@ main {
    }
    .linea-verdedx-no {
     max-width: 100%; 
-    padding-left: 230px;
+    padding-left: 60px;
+    margin-top: -30px;
    }
    .mostre-sedi {
     display: flex;
@@ -520,51 +546,48 @@ main {
 
 .boxmostre-sedi{
   background-color: #92A68330;
-  height: 150px;
-  margin-top: 40px;
+  height: 120px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  padding-left: 0px;
+  max-width: 250px;
   margin-left: 0px;
-  margin-bottom:20px;
-  padding-left: 10px;
-  padding-top: 0px;
-  width: 300px;
-}
+  }
+
 .boxmostre-sedi p{
-  margin-left: 25px;
   font-size: 11pt;
+  margin-left: 20px;
+  line-height: 120%;
 }
-  
   
   .img1-favara{
   max-width: 100%;
   margin-left: 0px;
   }
-  .img2-favara{
-    max-width: 100%;
-    margin-left: 0px;
-    }
+
     .img1-mazzarino{
       max-width: 100%;
       margin-left: 0px;
       }
-      .img2-mazzarino{
-        max-width: 100%;
-        margin-left: 0px;
-        }
-  
-  .sfondo {
-  width: 70%;
-  position: absolute;
-  right: 26px;
-  top: 18px;
-  }
+
   
   .tagline-sedi {
-  margin-top: 150px;
+    margin-top: -30px;
+    font-size: 24pt;
+  }
+
+  .tagline-sedi h2 {
+    font-size: 18pt;
+    line-height: 120%;
   }
   
   .sfondo, .tagline-sedi {
   display: flex;
   flex-direction: column;
+  }
+
+  .top-footer {
+    margin-top: 30px;
   }
   
   } 

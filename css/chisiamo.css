@@ -1,18 +1,18 @@
 main {
   max-width: 80%;
   margin: auto;
-  padding: 100px;
 }
+
 body {
 margin: auto;
 }
 
 .sfondo {
 position: absolute;
-margin-left: 588px;
-margin-top: 75px;
-
+margin-left: 690px;
+margin-top: 0px;
 }
+
 img {
 max-width: 100%;
 display: block;
@@ -24,8 +24,8 @@ background-color: #B9A833;
 color: white;
 border-radius: 5px;
 position: absolute;
-left: 20px;
-top: 18px;
+left: 45px;
+top: 55px;
 font-family: 'bebas neue';
 padding: 4px;
 margin-top: 5px;
@@ -45,29 +45,30 @@ margin-top: 5px;
   position: absolute;
   left: 35px;
 }
+
 .intro-chisiamo {
 font-family: 'League Spartan';
 line-height: 120%;
-margin-top: 100px;
-font-size: 14pt;
+margin-top: 35px;
+font-size: 16pt;
+max-width: 50%;
 }
+
 .testo2-chisiamo {
   font-family: 'League Spartan';
   line-height: 120%;
-  margin-top: 200px;
-  font-size: 14pt;
+  margin-top: 150px;
+  font-size: 16pt;
+  max-width: 50%;
   }
   .testo3-chisiamo {
     font-family: 'League Spartan';
     line-height: 120%;
-    margin-top: 200px;
-    font-size: 14pt;
+    margin-top: 150px;
+    font-size: 16pt;
+    max-width: 50%;
     }
 
-a:hover {
-font-weight: bold;
-font-size: 18pt;
-}
 
 a:hover#Home {
 color: #ba2575;
@@ -100,15 +101,17 @@ padding-top: 300px;
 padding-bottom: 50px;
 }
 .tagline-chisiamo h1 {
-  font-size: 30pt;
+  font-size: 50pt;
   font-family: 'bebas neue';
   margin-top: 40px;
   margin-bottom: 0px;
   }
+
   .tagline-chisiamo h2 {
-    font-size: 14pt;
+    font-size: 20pt;
     font-family: 'league spartan';
     }
+
 .verdino {
 color:#B9A833;
 font-weight: bold;
@@ -118,18 +121,19 @@ font-weight: bold;
 .linea-verdinadx {
 max-width: 100%; 
 background-color:#B9A833;
-margin-top: -30px;
-padding-left: 1050px;
+margin-top: -35px;
+padding-left: 750px;
 border: 1px dashed #fff;
 position: absolute;
 right: 0px;
 }
+
 .linea-verdinasx {
   max-width: 100%; 
   background-color:#B9A833;
   margin-bottom: 90px;
   margin-top: 60px;
-  padding-right: 685px;
+  padding-right: 700px;
   border: 1px dashed #fff;
   position: absolute;
   left: 0px;
@@ -176,17 +180,17 @@ text-decoration: none;
 }
 
 .hamburger-lines {
-display: block;
-height: 26px;
-width: 32px;
-position: absolute;
-top: 18px;
-right: 20px;
-z-index: 2;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-opacity: 0;
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+   top: 55px;
+   right: 45px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
 }
 
 .hamburger-lines .line {
@@ -223,15 +227,15 @@ transform: rotate(-45deg);
 }
 
 .checkbox {
-position: absolute;
-display: none;
-height: 32px;
-width: 32px;
-top: 16x;
-right: 16px;
-z-index: 5;
-opacity: 0;
-cursor: pointer;
+  position: absolute;
+  display: none;
+  height: 32px;
+  width: 32px;
+  top: 55px;
+  right: 45px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .img1 {
@@ -303,7 +307,7 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 font-family: 'league spartan';
-margin-top: 100px;
+margin-top: 200px;
 }
 
 .column-left {
@@ -350,11 +354,6 @@ footer ul a {
 color: #1E1E1E;
 }
 
-a:hover#scopri-come {
-color: #1E1E1E;
-font-size: 13pt;
-}
-
 .sedi{
   color: #fff;
   text-decoration: none;
@@ -374,15 +373,10 @@ font-size: 13pt;
   text-decoration: none;
 }
 
-a:hover.dona1{
-  font-size: 13pt;
-}
-
 @media only screen and (max-width: 900px) {
-
-  main {
+ main {
     display: block;
-    max-width: 40%;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -390,32 +384,70 @@ body {
   margin: auto;
 }
 
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-}
+  img {
+    max-width: 80%;
+    display: block;
+    height: auto;
+  }
+
+  .hamburger-lines {
+    display: block;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+     top: 25px;
+     right: 25px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .checkbox {
+    height: 20px;
+    width: 30px;
+     top: 25px;
+     right: 25px;
+  }
+  
+  .sfondo {
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    }
+
+    .logo h1 {
+      left: 25px;
+      top: 20px;
+      z-index: 999;
+    }
 
 .intro-chisiamo{
-  margin-top: 50px;
-  width: 150%;
+  max-width: 45ch;
+  font-size: 14pt;
+  margin-top: -10px;
 }
+
 .testo2-chisiamo{
-  margin-top: 100px;
-  width: 130%;
+  margin-top: 120px;
+  max-width: 45ch;
+  font-size: 14pt;
 }
 .testo3-chisiamo{
-  margin-top: 100px;
-  width: 130%;
+  margin-top: 120px;
+  max-width: 45ch;
+  font-size: 14pt;
 }
 .linea-verdinadx {
   max-width: 100%; 
-  padding-left: 170px;
+  padding-left: 40px;
+  margin-top: -30px;
  }
 
  .linea-verdinasx {
   max-width: 100%; 
-  padding-right: 470px;
+  padding-right: 300px;
  }
 
 
@@ -432,21 +464,39 @@ margin-left: 0px;
     margin-left: 0px;
     }
 
-
-.sfondo {
-width: 70%;
-position: absolute;
-right: 26px;
-top: 18px;
+.tagline-chisiamo {
+margin-top: 0px;
+font-size: 24pt;
 }
 
-.tagline-chisiamo {
-margin-top: 150px;
+.tagline-chisiamo h2 {
+  font-size: 18pt;
+  line-height: 120%;
 }
 
 .sfondo, .tagline-chisiamo {
 display: flex;
 flex-direction: column;
+}
+
+.quadratini-piccoli{
+  max-width: 6%;
+  position: absolute;
+  left: 5px;
+}
+.quadratini-piccoli2{
+  max-width: 6%;
+  position: absolute;
+  left: 5px;
+}
+.quadratini-piccoli3{
+  max-width: 6%;
+  position: absolute;
+  left: 5px;
+}
+
+.top-footer {
+  margin-top: 160px;
 }
 
 } 

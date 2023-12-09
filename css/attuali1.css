@@ -1,12 +1,36 @@
 main {
-    max-width: 80%;
-    margin: auto;
-    padding: 100px;
-  }
-  body {
+  max-width: 80%;
   margin: auto;
-  }
-  
+}
+
+body {
+margin: auto;
+}
+
+.sfondo {
+  position: absolute;
+  margin-left: 690px;
+  margin-top: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.logo h1 {
+background-color: #D9700E;
+color: white;
+border-radius: 5px;
+position: absolute;
+left: 45px;
+top: 55px;
+font-family: 'bebas neue';
+padding: 4px;
+margin-top: 5px;
+}
+
   .sedi{
     color: #fff;
     text-decoration: none;
@@ -25,30 +49,14 @@ main {
     color: black;
     text-decoration: none;
   }
-  
-  a:hover.dona1{
-    font-size: 13pt;
-  }
-  
-  .sfondo {
-  position: absolute;
-  margin-left: 588px;
-  margin-top: 75px;
-  
-  }
-  img {
-  max-width: 100%;
-  display: block;
-  height: auto;
-  }
-  
+
   .logo h1 {
   background-color: #d9700e;
   color: white;
   border-radius: 5px;
   position: absolute;
-  left: 20px;
-  top: 18px;
+  left: 45px;
+  top: 55px;
   font-family: 'bebas neue';
   padding: 4px;
   margin-top: 5px;
@@ -75,18 +83,17 @@ main {
   }
   
   .tagline-attuali1 h1 {
+    font-size: 50pt;
     font-family: 'bebas neue';
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
 
   .tagline-attuali1 h2 {
     font-family: 'league spartan';
+    font-size: 20pt;
   }
 
-  a:hover {
-  font-weight: bold;
-  font-size: 18pt;
-  }
-  
   a:hover#Home {
   color: #ba2575;
   }
@@ -204,17 +211,17 @@ main {
   }
   
   .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  opacity: 0;
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+     top: 55px;
+     right: 45px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
   }
   
   .hamburger-lines .line {
@@ -251,15 +258,15 @@ main {
   }
   
   .checkbox {
-  position: absolute;
-  display: none;
-  height: 32px;
-  width: 32px;
-  top: 16x;
-  right: 16px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 55px;
+    right: 45px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
   }
   
   .img-attuali1 {
@@ -317,7 +324,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'league spartan';
-  margin-top: 100px;
+  margin-top: 150px;
   }
   
   .column-left {
@@ -363,34 +370,68 @@ main {
   footer ul a {
   color: #1E1E1E;
   }
-  
-  a:hover#scopri-come {
-  color: #1E1E1E;
-  font-size: 13pt;
+
+  .arancione {
+    color:#d9700e;
   }
-
   @media only screen and (max-width: 900px) {
-
-
     main {
       display: block;
-      max-width: 40%;
-      margin: auto;
+      max-width: 80%;
   }
   
   body {
     margin: auto;
   }
-
-  img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
   
+    img {
+      max-width: 90%;
+      display: block;
+      height: auto;
+    }
+  
+    .hamburger-lines {
+      display: block;
+      height: 20px;
+      width: 30px;
+      position: absolute;
+       top: 25px;
+       right: 25px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .checkbox {
+      height: 20px;
+      width: 30px;
+       top: 25px;
+       right: 25px;
+    }
+    
+    .sfondo {
+      width: 80%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      }
+
+      .logo h1 {
+        left: 25px;
+        top: 20px;
+        z-index: 999;
+      }
+
   .intro-attuali1 {
     margin-top: 50px;
-    width: 130%;
+    width: 100%;
+  }
+
+  .intro-attuali1 p{
+    margin-top: 50px;
+    margin-left: 0px;
+    max-width: 45ch;
   }
 
   .linea-arancionedx {
@@ -400,25 +441,24 @@ main {
   
    .linea-arancionesx {
     max-width: 100%; 
-    padding-right: 200px;
+    padding-right: 30px;
    }
   
   .img-attuali1 {
-  width: 100%;
+  width: 90%;
   margin-left: 0px;
   }
 
-  .sfondo {
-  width: 70%;
-  position: absolute;
-  right: 26px;
-  top: 18px;
-  }
-  
   .tagline-attuali1 {
-  margin-top: 150px;
+  margin-top: 0px;
+    font-size: 24pt;
   }
   
+  .tagline-attuali1 h2 {
+    font-size: 18pt;
+    line-height: 120%;
+    }
+
   .sfondo, .tagline-attuali1 {
   display: flex;
   flex-direction: column;
@@ -428,7 +468,7 @@ main {
     font-family: 'league spartan';
     text-decoration: none;
     color: #d9700e;
-    padding-left: 65px;
+    padding-left: 10px;
     margin-bottom: 0px;
     margin-top: 50px;
     font-size: 11pt; 
@@ -439,8 +479,14 @@ main {
     flex-direction: row;
   }
 
-  a:hover.link-attuali1 {
-    font-size: 13pt;
+  .quadratini-piccoli{
+    max-width: 6%;
+    position: absolute;
+    left: 5px;
+  }
+
+  .top-footer {
+    margin-top: 80px;
   }
 
   } 

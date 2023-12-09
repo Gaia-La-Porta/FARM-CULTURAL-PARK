@@ -1,11 +1,23 @@
 main {
-    max-width: 80%;
-    margin: auto;
-    padding: 100px;
-  }
-  body {
+  max-width: 80%;
   margin: auto;
-  }
+}
+
+body {
+margin: auto;
+}
+
+.sfondo {
+position: absolute;
+margin-left: 690px;
+margin-top: 0px;
+}
+
+img {
+max-width: 100%;
+display: block;
+height: auto;
+}
 
   .sedi{
     color: #fff;
@@ -26,28 +38,18 @@ main {
     text-decoration: none;
   }
   
-  a:hover.dona1{
-    font-size: 13pt;
-  }
-  
-  .sfondo {
-  position: absolute;
-  margin-left: 588px;
-  margin-top: 75px;
-  
-  }
-  
   .logo h1 {
   background-color: #D9700E;
   color: white;
   border-radius: 5px;
   position: absolute;
-  left: 20px;
-  top: 18px;
+  left: 45px;
+  top: 55px;
   font-family: 'bebas neue';
   padding: 4px;
   margin-top: 5px;
   }
+
   .img1-programmi {
     width: 300px;
     margin-top: -10px;
@@ -86,64 +88,74 @@ main {
     display: flex;
     flex-direction: row;
     margin-top: 70px;
+    line-height: 120%;
+    font-size: 16pt;
 }
 
 .testo2-programmi {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
+    line-height: 120%;
+    font-size: 16pt;
 }
 
 .testo3-programmi {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
+    line-height: 120%;
+    font-size: 16pt;
 }
 
 .testo4-programmi {
     display: flex;
     flex-direction: row;
     margin-top: 150px;
+    line-height: 120%;
+    font-size: 16pt;
 }
 
   .intro-programmi p{
   font-family: 'League Spartan';
   line-height: 120%;
   margin-left: 150px;
-  font-size: 14pt;
   margin-top: 60px;
   color: #d9700e;
+  max-width: 50%;
   }
+
   .testo2-programmi p{
     font-family: 'League Spartan';
     line-height: 120%;
     margin-left: 150px;
-    font-size: 14pt;
     margin-top: 60px;
     color: #d9700e;
+    max-width: 50%;
     }
+
   .testo3-programmi p{
     font-family: 'League Spartan';
     line-height: 120%;
     margin-left: 150px;
-    font-size: 14pt;
     margin-top: 60px;
     color: #d9700e;
+    max-width: 50%;
     }
 
 .testo4-programmi p{
 font-family: 'League Spartan';
 line-height: 120%;
 margin-left: 150px;
-font-size: 14pt;
 margin-top: 60px;
 color: #d9700e;
-        }
+max-width: 50%;
+}
 
 .quadratini-piccoli{
-width: 60px;
-position: absolute;
-left: 35px;
+  width: 60px;
+  position: absolute;
+  left: 35px;
  }
 
  .quadratini-piccoli2{
@@ -183,11 +195,6 @@ left: 35px;
       margin-top: 76px;
   }
 
-  a:hover {
-  font-weight: bold;
-  font-size: 18pt;
-  }
-  
   a:hover#Home {
   color: #ba2575;
   }
@@ -218,16 +225,18 @@ left: 35px;
   padding-top: 300px;
   padding-bottom: 50px;
   }
+
   .tagline-programmi h1 {
-    font-size: 30pt;
     font-family: 'bebas neue';
-    margin-top: 40px;
+     margin-top: 40px;
     margin-bottom: 0px;
+    font-size: 50pt;
     }
+
     .tagline-programmi h2 {
-      font-size: 14pt;
+      font-size: 20pt;
       font-family: 'league spartan';
-      width: 45%;
+      max-width: 60%;
       margin-bottom: 60px;
       }
   
@@ -235,7 +244,7 @@ left: 35px;
   max-width: 100%; 
   background-color:#D9700E;
   margin-top: 0px;
-  padding-left: 900px;
+  padding-left: 845px;
   height: 1px;
   position: absolute;
   right: 0px;
@@ -282,17 +291,17 @@ left: 35px;
   }
   
   .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  opacity: 0;
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+     top: 55px;
+     right: 45px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
   }
   
   .hamburger-lines .line {
@@ -329,15 +338,15 @@ left: 35px;
   }
   
   .checkbox {
-  position: absolute;
-  display: none;
-  height: 32px;
-  width: 32px;
-  top: 16x;
-  right: 16px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 55px;
+    right: 45px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
   }
   
   /*@media only screen and (max-width: 600px) {*/
@@ -388,7 +397,7 @@ left: 35px;
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'league spartan';
-  margin-top: 100px;
+  margin-top: 150px;
   }
   
   .column-left {
@@ -434,65 +443,86 @@ left: 35px;
   footer ul a {
   color: #1E1E1E;
   }
-  
-  a:hover#scopri-come {
-  color: #1E1E1E;
-  font-size: 13pt;
-  }
-  
+
   @media only screen and (max-width: 900px) {
     main {
       display: block;
-      max-width: 40%;
-      margin: auto;
+      max-width: 80%;
   }
   
   body {
     margin: auto;
   }
-
-  img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
   
+    img {
+      max-width: 90%;
+      display: block;
+      height: auto;
+    }
+  
+    .hamburger-lines {
+      display: block;
+      height: 20px;
+      width: 30px;
+      position: absolute;
+       top: 25px;
+       right: 25px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .checkbox {
+      height: 20px;
+      width: 30px;
+       top: 25px;
+       right: 25px;
+    }
+    
+    .sfondo {
+      width: 80%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      }
+
+      .logo h1 {
+        left: 25px;
+        top: 20px;
+        z-index: 999;
+      }
+
   .intro-programmi p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    max-width: 45ch;
   }
   .testo2-programmi p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    max-width: 45ch;
   }
   .testo3-programmi p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    max-width: 45ch;
   }
 
   .testo4-programmi p{
     margin-top: 50px;
     margin-left: 0px;
-    max-width: 100%;
+    max-width: 45ch;
   }
   
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 450px;
+    padding-left: 310px;
    }
-  
-  .sfondo {
-  width: 70%;
-  position: absolute;
-  right: 26px;
-  top: 18px;
-  }
-  
+
   .tagline-programmi {
-  margin-top: 30px;
+    margin-top: 0px;
+    font-size: 24pt;
   }
   
   .sfondo, .tagline-programmi {
@@ -501,34 +531,59 @@ left: 35px;
   }
 
   .tagline-programmi h2 {
-    font-size: 14pt;
     font-family: 'league spartan';
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
+    font-size: 18pt;
+    line-height: 120%;
     }
 
   .intro-programmi {
     display: flex;
     flex-direction: column;
+    max-width: 45ch;
+    font-size: 14pt;
     margin-top: 70px;
 }
 
 .testo2-programmi {
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  max-width: 45ch;
+  font-size: 14pt;
 }
 
 .testo3-programmi {
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  max-width: 45ch;
+  font-size: 14pt;
 }
 
 .testo4-programmi {
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  max-width: 45ch;
+  font-size: 14pt;
+}
+
+.quadratini-piccoli{
+  max-width: 6%;
+  position: absolute;
+  left: 5px;
+}
+
+.quadratini-piccoli2{
+  max-width: 6%;
+  position: absolute;
+  left: 5px;
+}
+
+.top-footer {
+  margin-top: 100px;
 }
   
   } 

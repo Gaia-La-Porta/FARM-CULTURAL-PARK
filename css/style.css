@@ -24,16 +24,16 @@
 main {
     max-width: 80%;
     margin: auto;
-    padding: 100px;
 }
+
 body {
   margin: auto;
 }
 
 .sfondo {
-  position: absolute;
-  margin-left: 588px;
-  margin-top: 75px;
+position: absolute;
+margin-left: 690px;
+margin-top: -40px;
 }
 
 img {
@@ -47,8 +47,8 @@ img {
   color: white;
   border-radius: 5px;
   position: absolute;
-  left: 20px;
-  top: 18px;
+  left: 45px;
+  top: 55px;
   font-family: 'bebas neue';
   padding: 4px;
   margin-top: 5px;
@@ -57,42 +57,38 @@ img {
 .intro-home {
   font-family: 'League Spartan';
   line-height: 120%;
-  margin-top: 40px;
-  font-size: 14pt;
-}
-
-a:hover {
-  font-weight: bold;
-  font-size: 18pt;
+  margin-top: 35px;
+  font-size: 20pt;
+  max-width: 60%;
 }
 
 a:hover#Home {
-  color: #ba2575;
+color: #ba2575;
 }
-
+  
 a:hover#chi-siamo {
-  color: #b9a833;
+color: #b9a833;
 }
-
+  
 a:hover#cosa-facciamo {
-  color: #d9700e;
+color: #d9700e;
 }
-
+  
 a:hover#mostre {
-  color: #d9700e;
+color: #d9700e;
 }
-
+  
 a:hover#iniziative {
-  color: #d9700e;
+color: #d9700e;
 }
-
+  
 a:hover#programmi {
-  color: #d9700e;
+color: #d9700e;
 }
 
 .tagline-home {
   color: #ba2575;
-  font-size: 20pt;
+  font-size: 30pt;
   line-height: 200%;
   padding-top: 150px;
   padding-bottom: 50px;
@@ -105,15 +101,13 @@ a:hover#programmi {
   font-weight: bold;
 }
 
-
 .linea-fucsia {
   height: 2px;
   max-width: 100%; 
   background-color:#ba2575;
   margin-bottom: 65px;
-  margin-top: -30px;
-  padding-left: 1150px;
-  margin-left: 120px;
+  margin-top: -45px;
+  padding-left: 600px;
   position: absolute;
   right: 0px;
 }
@@ -137,9 +131,9 @@ nav {
   list-style: none;
   gap: 20px;
   
-}
-
-nav ul {
+  }
+  
+  nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -147,24 +141,24 @@ nav ul {
   gap: 20px;
   font-family: 'bebas neue';
   font-size: 14pt;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
   position: relative;
-}
-
-nav ul a {
+  }
+  
+  nav ul a {
   color: black;
   text-decoration: none;
-}
+  }
 
 .hamburger-lines {
   display: block;
   height: 26px;
   width: 32px;
   position: absolute;
-  top: 18px;
-  right: 20px;
+   top: 55px;
+   right: 45px;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -210,8 +204,8 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   display: none;
   height: 32px;
   width: 32px;
-  top: 16x;
-  right: 16px;
+  top: 55px;
+  right: 45px;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -240,64 +234,49 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
 }
 
 .column-attuale {
-  margin-top: 90px;
+  margin-top: 80px;
   color: #d9700e;
-  line-height: 130%;
-  width: 80%;
 }
 
-a:hover.column-attuale h2 {
-  font-size: 19pt;
+.mostre-home h2 {
+  font-size: 21pt;
 }
 
 .column-inprogramma {
   margin-top: 80px;
-  color: #d9700e;
-  line-height: 130%;
-  width: 80%;
+  color: #d9700e;  
 }
 
 .mostre-home {
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-bottom: 100px;
+margin-bottom: 130px;
 font-family: 'bebas neue';
+max-width: 95%;
 }
 
 .mostre-home p {
   color: #d9700e;
-}
-
-a:hover.mostre-home p {
   font-size: 13pt;
+  line-height: 120%;
 }
 
 .partecipa h2 {
   margin-top: -45px;
   font-family: 'bebas neue';
   margin-bottom: 90px;
+  font-size: 21pt;
 }
 
 .partecipa-p {
   color: #d9700e;
 }
 
-a:hover.partecipa-p h2 {
-  font-size: 19pt;
-}
-
 .partecipa p {
   font-family: 'league spartan';
   line-height: 120%;
-  font-size: 14pt;
-}
-
-.img-italia {
-margin: auto;
-width: 50%;
-margin-top: 0px;
-margin-bottom: 40px;
+  font-size: 18pt;
 }
 
 .partecipa p, .lumachina {
@@ -305,6 +284,7 @@ margin-bottom: 40px;
   flex-direction: row;
   margin-bottom: 0px;
 }
+
 .lumachina {
   width: 700px;
   padding: 20px;
@@ -313,6 +293,7 @@ margin-bottom: 40px;
 
 .verde {
   color:#92a683;
+  font-size: 18pt;
   font-weight: bold;
 }
 
@@ -324,8 +305,9 @@ margin-bottom: 40px;
 .citroviamo {
   font-family: 'league spartan';
   line-height: 120%;
-  font-size: 14pt;
+  font-size: 18pt;
   margin-top: 120px;
+  max-width: 50%;
 }
 
 .linea-verde {
@@ -333,48 +315,50 @@ margin-bottom: 40px;
   max-width: 100%;
   background-color:#92a683;
   margin-bottom: 65px;
-  margin-top: -30px;
-  padding-left: 1100px;
-  margin-left: 180px;
+  margin-top: -38px;
+  padding-left: 1060px;
   position: absolute;
   right: 0px;
 }
 
 .aprifarm h2 {
-  font-size: 14pt;
-  width: 50%;
-  margin-bottom: 0px;
+  font-size: 21pt;
   font-family: 'bebas neue';
   text-decoration: underline;
   color: #035234;
-  width: 100%;
+  max-width: 100%;
+  margin-top: -20px;
 }
 
 .img-italia {
-  width: 30%;
-}
-a:hover.aprifarm h2 {
-font-size: 18pt;
+    margin-left: -70px;
+    width: 30%;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 .aprifarm {
   display: flex;
   flex-direction: row;
-  margin-top: 150px;
-  margin-bottom: -20px;
+  margin-top: 100px;
+  margin-bottom: -50px;
   justify-content: space-between;
 }
 
 .aprifarm p {
   font-family: 'league spartan';
-  font-size: 14pt;
+  font-size: 18pt;
+  line-height: 120%;
   width: 50%;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 /*@media only screen and (max-width: 600px) {*/
   .checkbox {
     display: block;
   }
+
   nav ul {
     gap: 10px;
     flex-direction: column;
@@ -419,6 +403,7 @@ font-size: 18pt;
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'league spartan';
+  margin-top: 150px;
 }
 
 .column-left {
@@ -463,55 +448,81 @@ font-size: 18pt;
 
 footer ul a {
   color: #1E1E1E;
-}
- 
-a:hover#scopri-come {
-  color: #1E1E1E;
-  font-size: 13pt;
-}
-
-.sedi{
-  color: #fff;
-  text-decoration: none;
-}
-.dona{
-  color: #fff;
-  text-decoration: none;
-}
-
-.contatti{
-  color: #fff;
-  text-decoration: none;
-}
-
-.dona1{
-  color: black;
-  text-decoration: none;
-}
-
-a:hover.dona1{
-  font-size: 13pt;
-}
+  }
+  
+  .sedi{
+    color: #fff;
+    text-decoration: none;
+  }
+  .dona{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contatti{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dona1{
+    color: black;
+    text-decoration: none;
+  }
 
 @media only screen and (max-width: 900px) {
   main {
     display: block;
-    max-width: 40%;
+    max-width: 80%;
     margin: auto;
-}
+  }
 
-body {
+  body {
   margin: auto;
 }
 
   img {
-    max-width: 80%;
+  max-width: 80%;
+  display: block;
+  height: auto;
+  }
+
+  .hamburger-lines {
     display: block;
-    height: auto;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+     top: 25px;
+     right: 25px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .checkbox {
+    height: 20px;
+    width: 30px;
+     top: 25px;
+     right: 25px;
   }
   
+  .sfondo {
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    }
+
+    .logo h1 {
+      left: 25px;
+      top: 20px;
+      z-index: 999;
+    }
+
   .intro-home{
-    width: 150%;
+    max-width: 45ch;
+    font-size: 14pt;
+    margin-top: -20px;
   }
 
   .column-right {
@@ -525,45 +536,48 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-
 }
+
 .imgmostre{
-  max-width: 100%;
-  margin-left: 25px;
+ max-width: 100%;
+ margin-left: 25px;
+ margin-top: -19px;
 }
 
 .linea-fucsia {
-  padding-left: 280px;
+  padding-left: 210px;
+  margin-top: -30px;
 }
 
 .linea-verde {
-  padding-left: 220px;
+  padding-left: 130px;
+  margin-top: -30px;
+}
+
+.mostre-home h2 {
+  font-size: 18pt;
+  line-height: 100%;
+  margin-top: -20px;
 }
 
 .boxmostre{
   background-color: #d9700e30;
-  height: 150px;
-  margin-top: 40px;
+  height: 120px;
+  margin-top: 0px;
+  margin-bottom: 80px;
+  padding-left: 0px;
+  max-width: 250px;
   margin-left: 0px;
-  margin-bottom:20px;
-  padding-left: 10px;
-  padding-top: 0px;
-  width: 300px;
 }
 .boxmostre p{
-  margin-left: 25px;
   font-size: 11pt;
-}
-
-.sfondo {
-  width: 70%;
-  position: absolute;
-  right: 26px;
-  top: 18px;
+  margin-left: 20px;
+  line-height: 120%;
 }
 
 .tagline-home {
-  margin-top: 200px;
+  margin-top: 130px;
+  font-size: 24pt;
 }
 
 .sfondo, .tagline-home {
@@ -576,47 +590,61 @@ body {
 }
 
 .lumachina {
-  margin-left: 120px;
+  margin-left:20px;
+  max-width: 100%;
 }
 .partecipa p{
-  margin-top: 90px;
-  width: 120%;
+  margin-top: 10px;
+  max-width: 45ch;
+  font-size: 14pt;
   }
   .partecipa-p h2{
-    font-size: 14pt;
+    font-size: 20pt;
+    margin-top: -50px;
   }
 
   .citroviamo{
-    margin-top: 100px;
-    width: 120%;
+    margin-top: 90px;
+    max-width: 45ch;
+    font-size: 14pt;
   }
   .aprifarm h2 {
-    font-size: 14pt;
-    width: 50%;
+    margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 20pt;
+    line-height: 100%;
   }
   
+  .column-inprogramma {
+    margin-top: 10px;
+  }
 .img-italia {
-  margin: auto;
-  width: 50%;
+  width: 40%;
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-left: 120px;
+  margin-bottom: -40px;
 }
+
 .aprifarm {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-bottom: -50px;
   display: flex;
   flex-direction: column;
-  width: 120%;
+  max-width: 45ch;
 } 
 .aprifarm p {
  width: 100%;
+ font-size: 14pt;
+ margin-top: 60px;
 }
 
-a:hover.mostre-home p {
-  font-size: 12pt;
+.top-footer {
+  margin-top: 110px;
 }
 
+.verde {
+  font-size: 14pt;
+}
 } 
 .content-footer, .content-footer-bottom{
   display: flex;

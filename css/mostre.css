@@ -1,18 +1,35 @@
 main {
-    max-width: 80%;
-    margin: auto;
-    padding: 100px;
-  }
-  body {
+  max-width: 80%;
   margin: auto;
-  }
-  
-  .sfondo {
+}
+
+body {
+margin: auto;
+}
+
+.sfondo {
   position: absolute;
-  margin-left: 588px;
-  margin-top: 75px;
-  
-  }
+  margin-left: 690px;
+  margin-top: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.logo h1 {
+background-color: #D9700E;
+color: white;
+border-radius: 5px;
+position: absolute;
+left: 45px;
+top: 55px;
+font-family: 'bebas neue';
+padding: 4px;
+margin-top: 5px;
+}
   
   .sedi{
     color: #fff;
@@ -31,22 +48,6 @@ main {
   .dona1{
     color: black;
     text-decoration: none;
-  }
-  
-  a:hover.dona1{
-    font-size: 13pt;
-  }
-
-  .logo h1 {
-  background-color: #D9700E;
-  color: white;
-  border-radius: 5px;
-  position: absolute;
-  left: 20px;
-  top: 18px;
-  font-family: 'bebas neue';
-  padding: 4px;
-  margin-top: 5px;
   }
 
   .box1{
@@ -126,10 +127,6 @@ main {
 #radical-she a{
     color: #D9700E;
   }
-  #radical-she a:hover {
-    color: #D9700E;
-    font-size: 16pt;
-  }
 
   #countless-cities2 {
     font-size: 15pt;
@@ -140,10 +137,6 @@ main {
 
 #countless-cities2 a{
     color: #D9700E;
-  }
-  #countless-cities2 a:hover {
-    color: #D9700E;
-    font-size: 16pt;
   }
 
   #the-art {
@@ -156,10 +149,6 @@ main {
 #the-art a{
     color: #D9700E;
   }
-  #the-art a:hover {
-    color: #D9700E;
-    font-size: 16pt;
-  }
 
   #city-rebels {
     font-size: 15pt;
@@ -170,10 +159,6 @@ main {
 
 #city-rebels a{
     color: #D9700E;
-  }
-  #city-rebels a:hover {
-    color: #D9700E;
-    font-size: 16pt;
   }
 
   #countless-cities1 {
@@ -186,10 +171,6 @@ main {
 #countless-cities1 a{
     color: #D9700E;
   }
-  #countless-cities1 a:hover {
-    color: #D9700E;
-    font-size: 16pt;
-  }
 
   #detroit {
     font-size: 15pt;
@@ -200,10 +181,6 @@ main {
 
 #detroit a{
     color: #D9700E;
-  }
-  #detroit a:hover {
-    color: #D9700E;
-    font-size: 16pt;
   }
 
   #what {
@@ -216,10 +193,6 @@ main {
 #what a{
     color: #D9700E;
   }
-  #what a:hover {
-    color: #D9700E;
-    font-size: 16pt;
-  }
 
   #commonality {
     font-size: 15pt;
@@ -230,10 +203,6 @@ main {
 
 #commonality a{
     color: #D9700E;
-  }
-  #commonality a:hover {
-    color: #D9700E;
-    font-size: 16pt;
   }
 
   #sponsor {
@@ -246,10 +215,6 @@ main {
 #sponsor a{
     color: #D9700E;
   }
-  #sponsor a:hover {
-    color: #D9700E;
-    font-size: 16pt;
-  }
 
   #melodrama {
     font-size: 15pt;
@@ -261,17 +226,14 @@ main {
 #melodrama a{
     color: #D9700E;
   }
-  #melodrama a:hover {
-    color: #D9700E;
-    font-size: 16pt;
-  }
 
 .mostre-mostre {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 100px;
-    font-family: 'bebas neue';
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 130px;
+  font-family: 'bebas neue';
+  max-width: 95%;
     }
 
     .imgmostre-mostre {
@@ -293,26 +255,18 @@ main {
       .boxmostre-mostre p {
         font-family: 'league spartan';
         font-weight: bold;
+        line-height: 120%;
       }
       
       .column-attuale-mostre {
-        margin-top: 90px;
+        margin-top: 80px;
         color: #d9700e;
-        line-height: 130%;
-        width: 80%;
       }
       
       .column-inprogramma-mostre {
         margin-top: 80px;
         color: #d9700e;
-        line-height: 130%;
-        width: 80%;
       }
-  
-  a:hover {
-  font-weight: bold;
-  font-size: 18pt;
-  }
   
   a:hover#Home {
   color: #ba2575;
@@ -345,13 +299,13 @@ main {
   padding-bottom: 50px;
   }
   .tagline-mostre h1 {
-    font-size: 30pt;
+    font-size: 50pt;
     font-family: 'bebas neue';
     margin-top: 40px;
     margin-bottom: 0px;
     }
     .tagline-mostre h2 {
-      font-size: 14pt;
+      font-size: 20pt;
       font-family: 'league spartan';
       }
   
@@ -407,17 +361,17 @@ main {
   }
   
   .hamburger-lines {
-  display: block;
-  height: 26px;
-  width: 32px;
-  position: absolute;
-  top: 18px;
-  right: 20px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  opacity: 0;
+    display: block;
+    height: 26px;
+    width: 32px;
+    position: absolute;
+     top: 55px;
+     right: 45px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 0;
   }
   
   .hamburger-lines .line {
@@ -454,15 +408,15 @@ main {
   }
   
   .checkbox {
-  position: absolute;
-  display: none;
-  height: 32px;
-  width: 32px;
-  top: 16x;
-  right: 16px;
-  z-index: 5;
-  opacity: 0;
-  cursor: pointer;
+    position: absolute;
+    display: none;
+    height: 32px;
+    width: 32px;
+    top: 55px;
+    right: 45px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
   }
   
   /*@media only screen and (max-width: 600px) {*/
@@ -513,7 +467,7 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   font-family: 'league spartan';
-  margin-top: 100px;
+  margin-top: 150px;
   }
   
   .column-left {
@@ -559,30 +513,56 @@ main {
   footer ul a {
   color: #1E1E1E;
   }
-  
-  a:hover#scopri-come {
-  color: #1E1E1E;
-  font-size: 13pt;
-  }
-  
-  @media only screen and (max-width: 900px) {
 
+  @media only screen and (max-width: 900px) {
     main {
       display: block;
-      max-width: 40%;
-      margin: auto;
+      max-width: 80%;
   }
   
   body {
     margin: auto;
   }
-
-  img {
-    max-width: 100%;
-    display: block;
-    height: auto;
-  }
   
+    img {
+      max-width: 90%;
+      display: block;
+      height: auto;
+    }
+  
+    .hamburger-lines {
+      display: block;
+      height: 20px;
+      width: 30px;
+      position: absolute;
+       top: 25px;
+       right: 25px;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+    .checkbox {
+      height: 20px;
+      width: 30px;
+       top: 25px;
+       right: 25px;
+    }
+    
+    .sfondo {
+      width: 80%;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      }
+
+      .logo h1 {
+        left: 25px;
+        top: 20px;
+        z-index: 999;
+      }
+
   .intro-mostre p, .intro-inprogramma p, .intro-passate p{
     margin-top: 50px;
     margin-left: 0px;
@@ -591,7 +571,8 @@ main {
 
   .linea-arancionedx {
     max-width: 100%; 
-    padding-left: 180px;
+    padding-left: 220px;
+    margin-top: -25px;
    }
   
   
@@ -602,39 +583,38 @@ main {
 }
 
 .lista-mostre {
-    margin-left: 0px;
+  margin-top: 70px;
+    margin-left: -15px;
 }
 
 .imgmostre-mostre {
   max-width: 100%;
   margin-left: 25px;
 
-
 }
 .boxmostre-mostre {
   background-color: #d9700e30;
-  height: 150px;
-  margin-top: 40px;
-  margin-left: 0px;
-  margin-bottom:20px;
-  padding-left: 10px;
-  padding-top: 0px;
-  width: 300px;
+  height: 110px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 0px;
+  max-width: 250px;
+  margin-left: -15px;
 }
+
 .boxmostre-mostre p{
   margin-left: 25px;
   font-size: 11pt;
 }
 
-  .sfondo {
-  width: 70%;
-  position: absolute;
-  right: 26px;
-  top: 18px;
-  }
-  
   .tagline-mostre {
-  margin-top: 100px;
+    margin-top: 0px;
+    font-size: 24pt;
+  }
+
+  .tagline-mostre h2 {
+    font-size: 18pt;
+    line-height: 120%;
   }
   
   .sfondo, .tagline-mostre {
@@ -644,25 +624,29 @@ main {
 
   .box1{
     width: 300px;
-    margin-top: 50px;
+    margin-top: 60px;
     left: 0px;
-    margin-left: -50px;
+    margin-left: -40px;
   }
 
 .mostre-attuali {
-    margin-top: 110px;
-    padding-left: 80px;
+    margin-top: 125px;
+    padding-left: 105px;
 }
 
 .mostre-inprogramma-mostre {
-    margin-top: 45px;
-    padding-left: 80px;
+    margin-top: 60px;
+    padding-left: 105px;
 }
 
 .mostre-passate {
-    margin-top: 40px;
-    padding-left: 80px;
+    margin-top: 60px;
+    padding-left: 105px;
 }
+
+.top-footer {
+  margin-top: 80px;
+  }
 
   } 
   .content-footer, .content-footer-bottom{
